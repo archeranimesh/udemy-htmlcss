@@ -131,3 +131,13 @@ body{
 -  `font-size` : based on the above measurement units.
 -  `font-height` : how tall will be the font
 -  `font-weight` : `bold`, `italic`
+
+## CSS Colors ##
+
+* There are multiple ways to specify color in CSS.
+    - Color Names : We can specify the color names like `red`, `white`.
+    - RGB values : We can specify the rgb values with `rgb(red, green, yellow)`
+        + the value have a range of 0 - 255 for each red, green and yellow values.
+    - HEX Values :  We can also specify the rgb value using HEX value like `#dddddd`
+        + The Six values are divided into, first 2 values for Red, next 2 for green, and last 2 Blue.
+        + We can also specify only 3 values.
