@@ -56,6 +56,10 @@
 }
 
 /* Flex Columns */
+/* the below two call are joint together, find the use of this */
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
 .flex-columns .row{
     display: flex;
     /* default direction */
