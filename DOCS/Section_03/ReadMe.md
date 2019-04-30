@@ -207,6 +207,8 @@ margin-right: 20px;
 margin-bottom: 10px;
 margin-left: 20px;
 ````
+
+
     - Margin Shorthand
         + `margin: 10px 20px 10px 20px;` : top, right, bottom, left
     - Even more shorthand, since the value are common.
