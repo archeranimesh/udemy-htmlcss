@@ -201,6 +201,11 @@ padding-left: 20px;
 * Margin : As shown above it is the space outside of the border.
     - We can also specify margin in multiple ways.
     - Margin per side
+    - Margin Shorthand
+        + `margin: 10px 20px 10px 20px;` : top, right, bottom, left
+    - Even more shorthand, since the value are common.
+        + `margin: 10px 20px;` : top/bottom, left/right
+
 ````css
 margin-top: 10px;
 margin-right: 20px;
@@ -209,11 +214,7 @@ margin-left: 20px;
 ````
 
 
-    - Margin Shorthand
-        + `margin: 10px 20px 10px 20px;` : top, right, bottom, left
-    - Even more shorthand, since the value are common.
-        + `margin: 10px 20px;` : top/bottom, left/right
-
+    
 ## Float & Align ##
 * Align
     - Center aligning is very essential in the new world. We can use these 2 property to center align.
