@@ -37,6 +37,11 @@
     color: #333;
 }
 
+.btn-outline{
+    background: transparent;
+    border: 1px solid white;
+}
+
 /* flex items */
 .flex-items{
     display: flex;
@@ -85,4 +90,17 @@
     align-items: flex-start;
     justify-content: center;
     padding: 30px;
+}
+
+.flex-columns h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flex-columns h4{
+    margin-bottom: 10px;
+}
+
+.flex-columns p{
+    margin: 20px 0;
 }
