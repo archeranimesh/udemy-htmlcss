@@ -20,19 +20,19 @@
     opacity: 0.9;
 }
 
-.btn-primary{
+.btn-primary, .bg-primary{
     background-color: #28a745;
     color: #fff;
 }
-.btn-secondary{
+.btn-secondary, .bg-secondary{
     background-color: #0284d0;
     color: #fff;
 }
-.btn-dark{
+.btn-dark, .bg-dark{
     background-color: #333;
     color: #fff;
 }
-.btn-light{
+.btn-light, .bg-light{
     background-color: #f4f4f4;
     color: #333;
 }
@@ -48,4 +48,41 @@
 /* first div below flex-items */
 .flex-items > div{
     padding: 20px;
+}
+
+/* Flex Columns */
+.flex-columns .row{
+    display: flex;
+    /* default direction */
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+    /* the image is streached, change it to cover */
+    object-fit: cover;
+}
+
+.flex-columns .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
 }
