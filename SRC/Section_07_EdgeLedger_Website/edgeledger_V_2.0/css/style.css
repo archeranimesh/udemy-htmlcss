@@ -120,3 +120,21 @@ img {
     overlay, so set the z-index to bring it front.; */
     z-index: 1;
 }
+
+/* icons */
+.icons{
+    padding: 30px;
+}
+
+.icons h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icons i{
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
