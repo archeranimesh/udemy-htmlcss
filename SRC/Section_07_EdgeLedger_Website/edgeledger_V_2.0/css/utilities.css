@@ -6,3 +6,14 @@
 .text-secondary{
     color: #0284d0;
 }
+
+/* Button */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+}
