@@ -88,4 +88,15 @@ img {
     /* justify-content:  works when height is specified.; */
     justify-content: center;
     height: 100%;
+    padding: 0 20px;
+}
+
+.hero .content h1{
+    font-size: 55px;
+}
+
+.hero .content p{
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px 0 30px;
 }
