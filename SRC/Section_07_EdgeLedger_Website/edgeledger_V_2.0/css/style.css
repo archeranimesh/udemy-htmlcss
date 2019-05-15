@@ -79,3 +79,13 @@ img {
     position: relative;
     color: #fff;
 }
+
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content:  works when height is specified.; */
+    justify-content: center;
+    height: 100%;
+}
