@@ -36,7 +36,7 @@
 .py-3{padding: 3rem 0;}
 ````
         
-        + For all axis
+        * For all axis
 
 
 ````css
