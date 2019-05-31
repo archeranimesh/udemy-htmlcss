@@ -37,6 +37,7 @@
 
     #showcase .showcase-content{
         top: 110px;
+        /* margin-top: -2rem; */
     }
 
     #who{
@@ -67,5 +68,14 @@
         height: 200px;
         /* width: 500px; */
         border-top: 4px solid black;
+    }
+}
+
+@media(max-height: 568px){
+    .l-heading{
+        font-size: 3rem;
+    }
+    .lead{
+        font-size: 1rem;
     }
 }
