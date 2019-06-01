@@ -55,4 +55,17 @@
     #clients .items div:last-child{
         display: none;
     }
+
+    #contact{
+        /* the maps becomes invisible as there is no height */
+        /* giving flex-direction is not helping in firefox */
+        /* flex-direction: column; */
+        display: block;
+    }
+
+    #map{
+        height: 200px;
+        /* width: 500px; */
+        border-top: 4px solid black;
+    }
 }
