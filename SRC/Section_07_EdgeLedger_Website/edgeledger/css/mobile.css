@@ -46,4 +46,13 @@
     #who .who-img{
         display: none;
     }
+
+    #clients .items img{
+        width: 80%;
+    }
+
+    /* target the last element */
+    #clients .items div:last-child{
+        display: none;
+    }
 }
