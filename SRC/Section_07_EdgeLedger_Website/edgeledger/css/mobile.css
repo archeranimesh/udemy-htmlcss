@@ -27,7 +27,23 @@
     }
 
     #navbar .logo{
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.5rem;
         text-align: center;
+    }
+
+    #navbar ul{
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content{
+        top: 110px;
+    }
+
+    #who{
+        display: block;
+    }
+
+    #who .who-img{
+        display: none;
     }
 }
