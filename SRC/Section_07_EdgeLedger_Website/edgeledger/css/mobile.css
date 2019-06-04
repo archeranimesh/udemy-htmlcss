@@ -18,3 +18,16 @@
 
     margin-bottom: 0;
 }
+
+/* SmartPhones */
+@media(max-width: 500px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo{
+        margin-bottom: 0.75rem;
+        text-align: center;
+    }
+}

@@ -44,7 +44,8 @@ p{
     font-size: 4rem;
     margin-bottom: 0.75rem;
     /* need for line-height */
-    line-height: 1.1rem;
+    /* commenting the line height because the mobile version was bad. */
+    /* line-height: 1.1rem; */
 }
 
 .m-heading{
