@@ -1,0 +1,20 @@
+#what .items{
+    display: block;
+    padding: 1rem;
+}
+/* Align Icon to Left */
+#what .items .item{
+    /* flex items can itself be flex container */
+    display: flex;
+
+    text-align: left;
+}
+
+/* Position the Icon */
+#what .items .item i{
+    margin-right: 1.3rem;
+    /*  align the font awesom symbol to center */
+    align-self: center;
+
+    margin-bottom: 0;
+}
