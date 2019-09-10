@@ -236,3 +236,12 @@ p{
 #contact .map, #contact .contact-form{
     flex: 1;
 }
+
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+}
+
+/* making the label and input in seperate line. */
+#contact .contact-form label{
+    display: block;
+}
