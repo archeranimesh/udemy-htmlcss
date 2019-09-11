@@ -228,3 +228,11 @@ p{
 }
 
 /* Section: Contact */
+#contact{
+    display: flex;
+}
+
+/* make the contact form and map 50% width */
+#contact .map, #contact .contact-form{
+    flex: 1;
+}
