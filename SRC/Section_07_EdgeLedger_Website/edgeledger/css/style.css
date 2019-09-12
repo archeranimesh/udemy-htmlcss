@@ -35,6 +35,11 @@ p{
     color: #f4f4f4;
 }
 
+.bg-primary{
+    background: #93cb52;
+    color: #fff;
+}
+
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -211,7 +216,7 @@ p{
     background: url("../img/people.jpg") no-repeat center center/cover;
 }
 
-/* Clients */
+/* Section: Clients */
 #clients .items{
     display: flex;
 }
@@ -221,3 +226,5 @@ p{
     margin: auto;
     width: 60%;
 }
+
+/* Section: Contact */
