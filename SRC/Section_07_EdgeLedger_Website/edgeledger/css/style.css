@@ -25,6 +25,16 @@ p{
     color: #93cb52;
 }
 
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -78,6 +88,10 @@ p{
 .py-1{padding: 1.5rem 0;}
 .py-2{padding: 2rem 0;}
 .py-3{padding: 3rem 0;}
+
+.p-1{padding: 1.5rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
 
 /* Utility END */
 
@@ -171,4 +185,18 @@ p{
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+
+/* Section: Who we are */
+#who{
+    display: flex;
+}
+
+#who div{
+    /* giving equal horizontal space to 2 div */
+    flex: 1;
+}
+
+#who .who-img{
+    background: url("../img/people.jpg") no-repeat center center/cover;
 }
