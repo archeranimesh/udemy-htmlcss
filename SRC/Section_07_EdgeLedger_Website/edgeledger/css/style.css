@@ -136,17 +136,39 @@ p{
     /* The above 3 could not algin vertical center because the content doesnot have
     height */
     /* changed th height by 1% as the tinge was not extending */
-    height: 101%; 
+    height: 100%; 
 
     /* padding */
     padding: 0 2rem;
 
     /* overlay black tinge */
     position: absolute;
+    /* align the tinge properly */
     top: 60px;
     left: 0;
+    right: 0;
+    bottom: 0;
     /* Width should be given else the tinge is not align properly */
-    width: 100%;
+    /* width: 100%; */
     background-color: rgba(0,0,0,0.4);
     
+}
+
+/* Section: What We Do */
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
