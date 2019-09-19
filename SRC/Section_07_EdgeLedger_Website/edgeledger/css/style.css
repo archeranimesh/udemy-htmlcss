@@ -32,6 +32,14 @@ p{
     line-height: 1.1rem;
 }
 
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    /* need for line-height */
+    /* changing the line height as the text was getting truncated */
+    line-height: 1.6rem;
+}
+
 .lead{
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -62,6 +70,15 @@ p{
     padding: 0 2rem;
     overflow: hidden;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+
 /* Utility END */
 
 #navbar{
@@ -118,7 +135,8 @@ p{
     align-items: center;
     /* The above 3 could not algin vertical center because the content doesnot have
     height */
-    height: 100%;
+    /* changed th height by 1% as the tinge was not extending */
+    height: 101%; 
 
     /* padding */
     padding: 0 2rem;
@@ -130,4 +148,5 @@ p{
     /* Width should be given else the tinge is not align properly */
     width: 100%;
     background-color: rgba(0,0,0,0.4);
+    
 }
