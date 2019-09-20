@@ -56,6 +56,12 @@ p{
     color: #fff;
 }
 
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
 /* Utility END */
 
 #navbar{
