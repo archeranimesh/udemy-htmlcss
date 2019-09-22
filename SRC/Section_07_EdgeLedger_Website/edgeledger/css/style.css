@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
 }
 
 a{
@@ -23,6 +24,39 @@ p{
 .text-primary{
     color: #93cb52;
 }
+
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    /* need for line-height */
+    line-height: 1.1rem;
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    /* remove the border, in case we apply this btn class on button */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #7ab436;
+}
+
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+/* Utility END */
 
 #navbar{
     display: flex;
@@ -82,4 +116,12 @@ p{
 
     /* padding */
     padding: 0 2rem;
+
+    /* overlay black tinge */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    /* Width should be given else the tinge is not align properly */
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
 }
