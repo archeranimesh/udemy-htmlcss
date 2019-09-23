@@ -64,3 +64,22 @@ p{
     height: 100vh;
     color: #fff;
 }
+
+#showcase .showcase-content{
+    /* horizontally aligns the content */
+    display: flex;
+
+    /* make it vertical */
+    flex-direction: column;
+
+    /* Vertically and Horizontally center alignment */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* The above 3 could not algin vertical center because the content doesnot have
+    height */
+    height: 100%;
+
+    /* padding */
+    padding: 0 2rem;
+}
