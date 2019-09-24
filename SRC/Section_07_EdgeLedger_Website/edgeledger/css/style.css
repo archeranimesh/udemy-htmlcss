@@ -56,3 +56,11 @@ p{
     background: #93cb52;
     border-radius: 5px;
 }
+
+/* ShowCase */
+#showcase{
+    background: #333 url(../img/showcase.jpg) no-repeat center center/cover;
+    /* Since the backgroud covers only the content, Setting a height gives dimension */
+    height: 100vh;
+    color: #fff;
+}
