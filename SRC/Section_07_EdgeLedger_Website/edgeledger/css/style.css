@@ -38,3 +38,10 @@ p{
     z-index: 1;
     padding: 1rem;
 }
+
+#navbar ul{
+    /* 2nd Flex for the UL>LI */
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
