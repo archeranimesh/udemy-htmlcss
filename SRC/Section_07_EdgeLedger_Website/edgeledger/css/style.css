@@ -23,3 +23,18 @@ p{
 .text-primary{
     color: #93cb52;
 }
+
+#navbar{
+    display: flex;
+    /* Stick the NavBar at 0 */
+    position: sticky;
+    top: 0;
+    background: #333;
+    /* Non Links will change color */
+    color: #fff;
+    /* H1 to the Left, UL to the right, space inbetween */
+    justify-content: space-between;
+    /* NavBar should always be at top */
+    z-index: 1;
+    padding: 1rem;
+}
