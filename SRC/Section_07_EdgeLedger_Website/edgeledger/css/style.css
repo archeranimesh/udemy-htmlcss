@@ -18,3 +18,8 @@ a{
 p{
     margin: 0.75rem 0;
 }
+
+/* Utility Classes */
+.text-primary{
+    color: #93cb52;
+}
