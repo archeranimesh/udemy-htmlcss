@@ -37,7 +37,34 @@ The different alignment options are
     - Targets the first element in the list of div having `.item` class.
 
 ## Flex Alignment & Order ##
-
+* `flex-basis` : Provides a initial main size of the flex item. Consider it to be setting the width.
+* `justify-content` : Decides how a browser distributes space in and around an item in the horizontal(main-axis) direction.
+    - `flex-start` - The items are packed to the beginning of the flex container (left).
+    - `flex-end` - The items are packed to the end of flex container (right).
+    - `center` - The items are aligned towards the center, with space all around.
+    - `space-between` - The items are aligned horizontally, with all space is between items.
+    - `space-around` - The items are aligned horizontally, and space is equal between items
+    - `space-evenly` - The items are aligned horizontally, and space is equal for all items on each side.
+* `align-items` : Decides how elements are aligned along the cross axis(Vertical)
+    - `stretch` - *Default* value, Stretches to fill the container.
+    - `center` - Items are centered in the cross-axis
+    - `flex-start` - Items are place at the top of the cross-axis.
+    - `flex-end` - Items are places at the end of the cross-axis.
+    - `baseline` - Items are places such that the baseline align.
+* `align-content` : It is used when there is space in the cross-axis
+    - `flex-start` - Items are place at the top of the cross-axis.
+    - `flex-end` - Items are places at the end of the cross-axis.
+    - `center` - Items are grouped together at the center
+    - `space-between` - Items has space in between.
+    - `space-around` - Items also have space at the end
+    - `stretch` - *Default*, stretches the content
+* `align-self` : Overrides specific values from `align-items`.
+    - `flex-start` : Items are placed at the top of cross-axis.
+    - `flex-end` : Items are placed at the end of cross-axis.
+    - `center` : Items are aligned at the center of cross-axis.
+    - `baseline` : Item's baseline should be aligned.
+    - `stretch` : *Default*, stretches the item.
+* `order` : We can change the visual order of presentation of an items.
 
 ## Reference ##
 * [Flexbox - The Ultimate CSS Flex Cheatsheet (with animated diagrams!)](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/)

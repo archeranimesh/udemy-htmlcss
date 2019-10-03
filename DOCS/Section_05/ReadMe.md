@@ -67,8 +67,6 @@
     - If a browser is resized it uses the re-size value.
 * When we scroll we next the content immediately.
 
-   
-
 ## Reference ##
 * [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
 * [Unsplash Source](https://source.unsplash.com/)
