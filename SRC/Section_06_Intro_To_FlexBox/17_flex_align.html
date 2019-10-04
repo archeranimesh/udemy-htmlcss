@@ -8,7 +8,8 @@
         #container{
             background: #555;
             display: flex;
-            flex-wrap: wrap;
+            /* Have to comment flex-wrap, for the align-self to work */
+            /* flex-wrap: wrap; */
             /* align item horizontally */
             justify-content: space-evenly;
             height: 680px;
@@ -44,7 +45,28 @@
                         space-around
                         space-evenly 
          */
-         
+         .item-1{
+             order: 3;
+         }
+         .item-2{
+            align-self: center;
+            /* 
+            align-self: 
+                        auto
+                        flex-start
+                        flex-end
+                        center
+                        baseline
+                        stretch
+             */
+             order: 2;
+         }
+
+         .item-3{
+             /* changes the display order */
+             order: 1;
+         }
+
         .item{
             background: #f4f4f4;
             border: #ccc solid 1px;
@@ -61,11 +83,6 @@
         <div class="item item-1"><h3>Item 1</h3></div>
         <div class="item item-2"><h3>Item 2</h3></div>
         <div class="item item-3"><h3>Item 3</h3></div>
-        <div class="item item-1"><h3>Item 1</h3></div>
-        <div class="item item-2"><h3>Item 2</h3></div>
-        <div class="item item-3"><h3>Item 3</h3></div>
-        <div class="item item-1"><h3>Item 1</h3></div>
-        <div class="item item-2"><h3>Item 2</h3></div>
     </div>
 </body>
 </html>
