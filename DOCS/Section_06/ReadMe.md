@@ -36,6 +36,9 @@ The different alignment options are
 * `.item:first-child`
     - Targets the first element in the list of div having `.item` class.
 
+## Flex Alignment & Order ##
+
+
 ## Reference ##
 * [Flexbox - The Ultimate CSS Flex Cheatsheet (with animated diagrams!)](https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/)
 * [Image Source ](https://www.w3.org/TR/css-flexbox-1/)
