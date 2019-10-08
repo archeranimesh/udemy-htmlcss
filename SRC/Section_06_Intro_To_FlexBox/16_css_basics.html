@@ -14,6 +14,8 @@
             /* flex-direction: row-reverse; */
             /* default direction */
             flex-direction: row;
+            /* Wrap item if no of item is more than 12 in row */
+            flex-wrap: wrap;
         }
         .item{
             background: #f4f4f4;
@@ -27,12 +29,24 @@
         /* pseduo selector for first child */
         .item:first-child{
             /* increses the width too twice the size, but divide equally. */
-            flex: 2;
+            flex: 1;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="item"><h3>Item 1</h3></div>
+        <div class="item"><h3>Item 2</h3></div>
+        <div class="item"><h3>Item 3</h3></div>
+        <div class="item"><h3>Item 1</h3></div>
+        <div class="item"><h3>Item 2</h3></div>
+        <div class="item"><h3>Item 3</h3></div>
+        <div class="item"><h3>Item 1</h3></div>
+        <div class="item"><h3>Item 2</h3></div>
+        <div class="item"><h3>Item 3</h3></div>
+        <div class="item"><h3>Item 1</h3></div>
+        <div class="item"><h3>Item 2</h3></div>
+        <div class="item"><h3>Item 3</h3></div>
         <div class="item"><h3>Item 1</h3></div>
         <div class="item"><h3>Item 2</h3></div>
         <div class="item"><h3>Item 3</h3></div>
