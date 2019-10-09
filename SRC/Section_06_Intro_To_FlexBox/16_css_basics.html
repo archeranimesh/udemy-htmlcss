@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basics</title>
+    <style>
+        .container{
+            /* defualt is horizontal alignment */
+            display: flex;
+            /* vertial alignment */
+            /* flex-direction: column; */
+            /* reverse horizontal */
+            /* flex-direction: row-reverse; */
+            /* default direction */
+            flex-direction: row;
+        }
+        .item{
+            background: #f4f4f4;
+            border: #ccc solid 1px;
+            padding: 1rem;
+            text-align: center;
+            /* align all item equally */
+            flex: 1;
+            margin: 0.75rem;
+        }
+        /* pseduo selector for first child */
+        .item:first-child{
+            /* increses the width too twice the size, but divide equally. */
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"><h3>Item 1</h3></div>
+        <div class="item"><h3>Item 2</h3></div>
+        <div class="item"><h3>Item 3</h3></div>
+    </div>
+</body>
+</html>
