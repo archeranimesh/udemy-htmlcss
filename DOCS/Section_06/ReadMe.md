@@ -6,7 +6,7 @@
 * `flex` is a `display` property, just like our `display : block`
 * Aligns item both horizontally and vertically.
 
-![An illustration of the various directions and sizing terms as applied to a row flex container.](../img/flex-direction-terms.svg)
+![An illustration of the various directions and sizing terms as applied to a row flex container.](../img/flex-direction-terms.svg "Logo")
 
 The different alignment options are
 
