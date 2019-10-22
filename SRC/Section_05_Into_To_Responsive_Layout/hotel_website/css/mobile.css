@@ -14,6 +14,16 @@
     border-bottom: #444 dotted 1px;
 }
 
+/* showcase */
+#showcase{
+    height: 100%;
+}
+
+#showcase .showcase-content{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 /* home-info */
 #home-info{
     height: 550px;
