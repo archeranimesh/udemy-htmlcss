@@ -33,3 +33,18 @@
     float: none;
     width: 100%;
 }
+
+/* About Page */
+#about-info .info-right,
+#about-info .info-left{
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right{
+    margin-top: 30px;
+}
+
+.l-heading{
+    text-align: center;
+}
