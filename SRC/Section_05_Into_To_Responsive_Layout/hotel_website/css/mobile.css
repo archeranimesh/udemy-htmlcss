@@ -1,0 +1,15 @@
+#navbar .logo{
+    float: none;
+    text-align: center;
+}
+
+/* Stack the item on top of one another */
+#navbar ul,
+#navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    padding: .313rem;
+    border-bottom: #444 dotted 1px;
+}
