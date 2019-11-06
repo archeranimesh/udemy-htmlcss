@@ -47,6 +47,9 @@
 
 ## About Page ##
 * CSS class should have a definite styling. Do not club different type of styling into one.
+* We can add `opacity` to make the `div` a little see through, value range is from
+    - `0` : fully transparent
+    - `1` : opaque.
 
 
 ## Reference ##
