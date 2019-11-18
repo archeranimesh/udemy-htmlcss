@@ -81,6 +81,10 @@ p{
     margin: 13px 20px;
 } */
 
+.clr{
+    clear: both;
+}
+
 /* Navbar */
 #navbar{
     background: #333;
@@ -184,4 +188,12 @@ p{
 
 .box i{
     margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 5px;
 }
