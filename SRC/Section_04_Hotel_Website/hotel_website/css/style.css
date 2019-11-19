@@ -69,8 +69,8 @@ p{
     color: #333;
 }
 .bg-primary{
-    background: #333;
-    color: #f7c08a;
+    background: #f7c08a;
+    color: #333;
 }
 /* margin is not used as it does not shape around content */
 /* .btn-1{
@@ -172,4 +172,16 @@ p{
 
 #home-info .info-content p{
     padding-bottom: 30px;
+}
+
+/* Features */
+.box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i{
+    margin-bottom: 10px;
 }
