@@ -30,6 +30,16 @@
 
 * `section` tags can be used to separate different part of the website.
 
+
+## Font Awesome ##
+* Font Awesome is a great icon website, where we can get free icons.
+* We can add the Font Awesome as a link tag.
+* Font Awesome has pre-built CSS class.
+* `fa-hotel` : provides a hotel icon
+* `fa-utensils` : provides a utensils icon
+* `fa-dumbbell` : provides a dumbbell icon
+* `fa-3x` : expands the size of the icon as 3x.
+
 ## Reference ##
 * [The best free stock photos & videos shared by talented creators.](https://www.pexels.com/)
 * [FontAwesome](https://fontawesome.com/)
