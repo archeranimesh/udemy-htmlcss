@@ -12,9 +12,22 @@
 * The logo should always take us to the `index.html`
 * We should add a CSS reset at the beginning with both margin and padding to be 0.
     * We can also have `box-sizing` defined as `border-box`
+* Links should be assigned color specifically.
+* There should be container inside navbar, so that the navbar does not extend till the end.
+
+### Horizontal Centering ###
+* We can horizontally center an item with this parameters.
+
+````css
+.hori-center{
+    max-width:400px;
+    margin: auto;
+}
+````
 
 
 ## Reference ##
 * [The best free stock photos & videos shared by talented creators.](https://www.pexels.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [Build anything ](https://themes.getbootstrap.com/)
+* [The CSS Value of Auto ](https://www.youtube.com/watch?v=1vl3LrEwqpE)
