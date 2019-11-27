@@ -5,6 +5,10 @@
 * We should look at some themes website for inspiration of design, like [BootStrap Themes](https://themes.getbootstrap.com/)
 
 
+## File Structure  ##
+* CSS file is generally named as `style.css` or `main.css`
+
+
 ## Reference ##
 * [The best free stock photos & videos shared by talented creators.](https://www.pexels.com/)
 * [FontAwesome](https://fontawesome.com/)
