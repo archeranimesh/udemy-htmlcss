@@ -310,6 +310,15 @@ There are total of 6 CSS Position type.
 * [CSS-Tricks | Position ](https://css-tricks.com/almanac/properties/p/position/)
 * [CSS-Tricks | Abs Vs Relative ](https://css-tricks.com/absolute-positioning-inside-relative-positioning/)
 
+## CSS Visibility, Order and Negative Margin ##
+* We can control the visibility of a element in these 2 ways.
+    * `display: none;` - removes the element from DOM.
+    * `visibility: hidden;` - Does not remove the element from DOM, just makes it hidden
++ CSS has a precedence order, like class has preference over element styling.
+    * We can change it by using the `!important` flag.
++ Negative Values.
+    * We can even give negative Values for margin, padding, which means before the current position.
+
 
 
 
