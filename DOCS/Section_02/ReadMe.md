@@ -264,6 +264,24 @@ margin-left: 20px;
 * `line-height: 2.4em;` : puts space between 2 `li` elements if targeted for `li`.
 * `overflow: auto;` : This expands to background to the shape of the content when the overflow property is set.
 
+## Display Property ##
+* Each HTML element have a default display behavior associated with itself. 
+    - Like, `li` is a block element, `img` is an inline element.
+* Block Level element means, it takes the complete horizontal width of the browser
+* Inline elements only take as much space as it is required by the content.
+* We can change this behavior from CSS.
+    - `img` can be made an block level element by just setting `display: block;`
+    - `li` can become an inline element by just setting `display: inline;`
+* In-line elements:-
+    - In-elements does not have any impact with width and margin set as auto.
+* Block elements:-
+    - We can control width, height and all other geometric property.
+* Inline-block:-
+    * This is to make inline element respond to width, hight and other similar property.
+    * Inline-block makes the content only that much in width as required by the content, placing the next element right next with the padding and margin honored.
+* `box-sizing`: Setting the box-sizing as border-box, helps in adding the padding and margin in the calculation of width.
+
+
 
 
 
