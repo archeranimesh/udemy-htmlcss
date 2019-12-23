@@ -9,6 +9,31 @@
     body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    /* Nav Bar */
+    .navbar{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        background: #4c6ca0;
+        border-radius: 5px;
+        overflow: auto; /*To get the background back ???*/
+    }
+
+    .navbar li{
+        float: left;
+    }
+
+    .navbar li a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px 20px;
+    }
+
+    .navbar li a:hover{
+        background-color: #446190;
+        color: #f4f4f4;
+    }
     /* Side Menu */
     .side-menu{
         list-style: none; /* removes the bullets*/
@@ -39,6 +64,13 @@
     }
 </style>
 <body>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br>
     <ul class="side-menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
