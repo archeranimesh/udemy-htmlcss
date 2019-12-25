@@ -225,6 +225,40 @@ margin-left: 20px;
 * Clear Float :
     - We should always clear float by using `clear:both` property.
 
+## Link and Button Style ##
+
+### Link Style and State ###
+* Links have different ways to style themselves, along with states.
+* `text-decoration: none;` : removes the under line from the link type.
+* We can style the links based on the state, which is done with the help of pseudo selector.
+* The different states are:-
+    - `hover` : when we move the cursor on it.
+    - `visited` : when we visit and come back to the same page
+    - `active` : when the link is clicked.
+
+### Button Style and Links ###
+* We can make both Links and Button look the same way.
+* Here is a sample BTN class
+
+````css
+/* button styling */
+.btn{
+    background: #4c6ca0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #f4f4f4;
+    background: #446190;
+}
+````
+
+
+
 
 
 
