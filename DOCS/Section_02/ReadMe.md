@@ -207,7 +207,23 @@ margin-left: 20px;
     - Even more shorthand, since the value are common.
         + `margin: 10px 20px;` : top/bottom, left/right
 
-
+## Float & Align ##
+* Align
+    - Center aligning is very essential in the new world. We can use these 2 property to center align.
+    - `width: 960px;`
+    - `margin: auto;` These 2 property help in center align of the content.
+    - `max-width: 960px;` : we can use max-width if we want responsive centering.
+* Text Align:-
+    - There are multiple text align property
+    - `left` : this is the default.
+    - `right` : this is for right align.
+    - `center` : this is for center align.
+    - `justify` : this is to justify alignment.
+* Floating : 
+    - We can float to div using the `float` and `width` property. 
+    - We should also have the `box-sizing` property set else the dimension will be wrong.
+* Clear Float :
+    - We should always clear float by using `clear:both` property.
 
 
 
