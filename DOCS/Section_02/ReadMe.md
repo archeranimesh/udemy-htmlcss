@@ -180,6 +180,33 @@ body{
 
 ![Box model of the browser](img/box_model.png "Box model of the browser")
 
+* Padding : As shown above it is the space between the border and the content.
+    - We can specify Padding in multiple ways.
+    - Padding per side.
+````css
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+````
+    * Padding shorthand.
+        * `padding: 10px 20px 10px 20px;` : top, right, bottom, left
+    * Even more shorthand, since the values are common  
+        * `padding: 10px 20px;`  : top/bottom, left/right
+* Margin : As shown above it is the space outside of the border.
+    - We can also specify margin in multiple ways.
+    - Margin per side
+````css
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+````
+    - Margin Shorthand
+        + `margin: 10px 20px 10px 20px;` : top, right, bottom, left
+    - Even more shorthand, since the value are common.
+        + `margin: 10px 20px;` : top/bottom, left/right
+
 
 
 
