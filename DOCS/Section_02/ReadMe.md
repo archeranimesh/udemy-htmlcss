@@ -109,25 +109,25 @@ body{
 
 ## CSS Fonts ##
 
-* cm
-* mm
-* in
-* px
-* pt
-* pc
-* releative
-    - %
-    - em - to font-size of parent element
-    - rem - To font-size of root element
-    - vw
-    - vh
-
-
-
-
-
-
-
-
-
-
+* **Web Safe Fonts** : When using different `font-family` in CSS, we have to take care that the font should be available in all the system.
+    - `font-family` : `Arial, Helvetica, sans-serif;` this means that `Arial` will be selected, if not present `Helvetica` will be selected, at last any `sans-serif` font will be selected.
+* **Downloaded Fonts** : There is also option to use Internet fonts like google fonts, adobe fonts.
+    * `<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> `
+        * The above will link to a `Roboto` font from google fonts and it is free.
+* Measurement Unit:-
+    * Absolute:-
+        *  `cm` : centimeters
+        *  `mm` : millimeters
+        *  `in` : inches
+        *  `px` : pixel, this is what is most commonly used.
+        *  `pt` : point
+        *  `pc` : picas
+    +  Relative:-
+        *  `%` : Relative to parent element.
+        *  `em` : Relative to the font size of the element.
+        *  `rem` : Relative to the font size of the root element.
+        *  `vw` : 1% of the viewport width
+        *  `vh` : 1% of the viewport height.
+-  `font-size` : based on the above measurement units.
+-  `font-height` : how tall will be the font
+-  `font-weight` : `bold`, `italic`
