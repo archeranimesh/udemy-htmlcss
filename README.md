@@ -9,4 +9,4 @@ I am giving all necessary reference and credits for these notes.
 
 ## Table of Content ##
 
-* [Chapter 01 : HTML Basics](DOCS/Chapter_01/ReadMe.md)
+* [Chapter 01 : HTML Basics](DOCS/Section_01/ReadMe.md)
