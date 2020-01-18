@@ -53,11 +53,30 @@ In this section we will learn about
 * `<head>` and `<body>` are two children of the `<html>` tags, which is represented by the indentation.
 * `<head>` represent all invisible item of the web page like meta information.
 * `<head>` has a `<title>` tag as is children which displays the heading in the tab of browser.
+    - `<title>` is very important for SEO.
+    - This is what is displayed in google search results.
 * `<body>` tags shows all the information inside a web page. Content of the web page.
 * `<!-- This is a comment -->`, this is how we can comment in HTML page which is also multi-line
 
+#### META tags ####
+````
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="This is a website dedicate to brad travesy">
+<meta name="keywords" content="web development, web design">
+<!--Do no index the web page.-->
+<meta name="robots" content="NOINDEX, NOFOLLOW">
 
+````
 
+* `meta` tags are a nice way to provide information for browser and search engines about the statistics of the web page.
+* `<meta charset="UTF-8">`: The character set is defined as `UTF-8`, which is the default.
+    - It helps in understanding of the browser certain type of characters represent what in a web-page.
+* `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: This is important for responsive design. 
+    - This gives the option of what should be the width of the viewport, which adjusts based on the device.
+* `meta` tags two important `name` is used for SEO, `description` and `keywords`, `description` is displayed in the google search result.
+* `<meta name="robots" content="NOINDEX, NOFOLLOW">` is used so that any search engine does not index your web page and also follow links
 
 
 
