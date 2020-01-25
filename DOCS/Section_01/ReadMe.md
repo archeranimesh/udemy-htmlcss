@@ -115,7 +115,27 @@ In this section we will learn about
         + We can link to external links just as shown above.
 
 
-
+### List and Tables ###
+* List and tables are used to represent a list of information or a structured data.
+* List can be divided into 2 parts
+    - Ordered list
+    - Unordered List
+* Unordered List : `<UL> <LI>`
+    * Unordered list is used to represent a list when the data is not in order.
+    * Unordered has a style attribute called `list-styles`, which can take values like `squares`, `disc` etc to show the different type of bullets.
+* Ordered List : `<OL> <LI>`
+    * Ordered list is used when there is an order in the data.
+    * `Type` attributes help in changing the numbing for the ordered list. 
+        * Options are `A`, `a`, `I`, `i`, default is `I`
+* Nested List : 
+    - We can also have a list within a list, which is called nested list.
+* Table are a way to represent tabular data in a HTML document.
+    - `<table>` : This tag indicates the beginning of the table.
+    - `<thead>` : This tag indicates the header row of the table.
+    - `<tbody>` : This tag represent the normal body of the table.
+    - `<tr>` : This tag represents a table row.
+    - `<th>` : This tag represent the individual content in a header inside a `<tr>`.
+    - `<td>` : This represent the individual content in the body inside a `<tr>`
 
 
 
