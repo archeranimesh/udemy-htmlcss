@@ -78,6 +78,24 @@ In this section we will learn about
 * `meta` tags two important `name` is used for SEO, `description` and `keywords`, `description` is displayed in the google search result.
 * `<meta name="robots" content="NOINDEX, NOFOLLOW">` is used so that any search engine does not index your web page and also follow links
 
+### Heading, Paragraph and Typography ###
+
+* Headings
+    - Headings are specified by these tags `<h1>, <h2>, <h3>, <h4>, <h5>, <h6>`.
+    - This are used to specific logical structure to the document.
+    - The height and width of text decreases from `<h1>` to `<h6>`.
+    - There should be only 1 `<h1>` per page, generally this is the title of the page.
+        + This is good for SEO
+* Typography
+    - `<p>` : paragraph tag is used to represent a paragraph in a HTML document.
+    - `<strong>` : Strong tag is to inform that certain text has to stand out. The default styling is bold, which can be changed using CSS
+    - `<em>` : The em tag is used to put emphasized on certain words in text. The default styling is italics.
+        - Strong tag is used to make a sentence to stand out where as em tag is used to put a word stand out.
+    - `<del>` : This is used to show certain sentence is deleted from the text.
+    - `<br>` :  BR tag is used to give a line spacing between sentences. HTML documents generally ignores the whitespace while rendering.
+    - `<hr>` : This is horizontal line.
+    - The old few HTML tags are now deprecated because they used to represent styling in HTML, which is now given to CSS.
+        - these are `<i>`, `<b>`, `<strike>`  
 
 
 
