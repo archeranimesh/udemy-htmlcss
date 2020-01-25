@@ -97,6 +97,24 @@ In this section we will learn about
     - The old few HTML tags are now deprecated because they used to represent styling in HTML, which is now given to CSS.
         - these are `<i>`, `<b>`, `<strike>`  
 
+### Links & Images ###
+
+* Links are reference to another documents. It can be internal and external.
+    - `<a href="https://www.google.com/"> Google</a>`
+        + The above is an example for `<a>` tag, which is also called anchor tag.
+        + By default the above link will open in the same window. To redirect it to another window or tab we should add `target="_blank"` attributes.
+        + `<a>` tags are inline elements, which will be discussed in future.
+        + `<a>` tags are some time wrapped in a `<p>` tag to make it behave as a block element.
+        + We can link to an internal document by just giving a relative link.
+* Images are links to images, which can be both internal and external.
+    - `<img src="/SRC/Section_02_HTML_Basics/images/sample.jpg" alt="My Image" width="200">`
+        + `<img>` tags are also inline elements.
+        + we can to internal documents just as soon above.
+        + `alt` attribute is displayed when the browser cannot load the image.
+    - `<img src="https://source.unsplash.com/200x200/?nature,water" alt="Nature and Water">`
+        + We can link to external links just as shown above.
+
+
 
 
 
