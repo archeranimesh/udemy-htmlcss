@@ -138,7 +138,14 @@ In this section we will learn about
     - `<td>` : This represent the individual content in the body inside a `<tr>`
 
 
+### Forms & Input ###
 
+* HTML and CSS is used to display the form, but the processing of the form happens in the back end on server.
+* Complete form is surrounded with the `form` tag.
+    - `<form action="#">` : the attribute of the `action` send all the form information to the server file mentioned in `action`.
+* `label` : the label tag is used to display a text as a label
+* `input` : input takes various forms, when `type = "text"` the input is a text box.
+    - When the `for` attribute on `label` matches the `id` attribute of `input`, on clicking the label, cursor is moved to corresponding input.
 
 
 

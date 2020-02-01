@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <!-- The for attribute in label and id on input makes that on 
+                selecting label cursor is on the input.-->
+            <label for="name">Name</label>
+            <input type="text" id="name" value="John doe">
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="message">message</label>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex" autocomplete="off">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+                <option value="other" selected>other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="birthdate">Birthday</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <br>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" id="membership" value="simple"> Simple
+            <input type="radio" name="membership" id="membership" value="Standard" checked>  Standard
+            <input type="radio" name="membership" id="membership" value="super"> super
+        </div>
+    </form>
+</body>
+</html>
