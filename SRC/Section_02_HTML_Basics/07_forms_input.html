@@ -11,19 +11,23 @@
         <div>
             <!-- The for attribute in label and id on input makes that on 
                 selecting label cursor is on the input.-->
+                <!-- Text input -->
             <label for="name">Name</label>
             <input type="text" id="name" value="John doe">
         </div>
+        <!-- email input -->
         <br>
         <div>
             <label for="email">email</label>
             <input type="email" name="email" id="email" placeholder="Enter your email">
         </div>
+        <!-- Text area -->
         <br>
         <div>
             <label for="message">message</label>
             <textarea name="message" id="message" cols="50" rows="5"></textarea>
         </div>
+        <!-- Select -->
         <br>
         <div>
             <label for="sex">Sex</label>
@@ -33,16 +37,19 @@
                 <option value="other" selected>other</option>
             </select>
         </div>
+        <!-- Number -->
         <br>
         <div>
             <label for="age">age</label>
             <input type="number" name="age" id="age">
         </div>
+        <!-- Date -->
         <br>
         <div>
             <label for="birthdate">Birthday</label>
             <input type="date" name="birthdate" id="birthdate">
         </div>
+        <!-- radio -->
         <br>
         <div>
             <label for="membership">Membership</label>
@@ -50,6 +57,24 @@
             <input type="radio" name="membership" id="membership" value="Standard" checked>  Standard
             <input type="radio" name="membership" id="membership" value="super"> super
         </div>
+        <!-- CheckBox -->
+        <br>
+        <div>
+            <label for="likes">I Like</label>
+            <input type="checkbox" name="likes" id="likes" value="bike"> bike
+            <input type="checkbox" name="likes" id="likes" value="car" checked> car
+            <input type="checkbox" name="likes" id="likes" value="boat"> boat
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <!-- using button -->
+        <button type="submit">Submit</button>
+        <!-- reset -->
+        <br>
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>
