@@ -198,6 +198,16 @@ In this section we will learn about
 * `&hearts;` : the card's hearts.
 * `&diams;` : the card's diamond.
 * `kbd` : displays as computer generated code.
+
+### HTM5 Semantic Tags ###
+* `header` : The header area is at the top of the web page. It has the company logo, navigation bar, with search box etc.
+* `footer` : The footer area is at the bottom of the web page, generally displaying the company's trade marks etc.
+* `nav` : Navigation semantics generally wraps a `ul, li` combination.
+* `main` : Generally `section` and `article` are wrapped within the `main` tag.
+* `section` : Generally the different header we use in a web page.
+* `article` : All the content can be wrapped inside an `article` tag.
+* `aside` : Not the main content, just present in the side.
+
  
 
 
