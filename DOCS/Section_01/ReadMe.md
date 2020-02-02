@@ -167,6 +167,9 @@ In this section we will learn about
     - `type="submit"` : Creates a Submit Button
     - `type="reset"` : Creates a Reset button, which resets all the form field.
 
+### Block and In-line ###
+
+
 
 
 
