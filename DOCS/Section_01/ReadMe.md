@@ -178,7 +178,27 @@ In this section we will learn about
 * `span` is a in-line element, used to group in-line element in a document.
 * `id=main-header` : uniquely identifies an element in the documents.
 * `class=card` : groups multiple element into a common group.
-* `&copy;` : is a HTML entities. 
+* `&copy;` : is a HTML entities.
+
+### HTML Entities ###
+* Reserved Characters in HTML are denoted by HTML Entities.
+* `&nbsp;` : Non Breaking Space, introduces space between text.
+* `&gt;` : The greater than Sign.
+    - `&#62;`
+* `&lt;` : The less than sign
+    - `&#60;`
+* `&copy;` : The Copyright character.
+* `&reg;` : the Registered trademark Character.
+* `&cent;` : Displays cents.
+* `&pound;` : The British pound.
+* `&yen;` : Japanese Yen.
+* `&euro` : Euro.
+* `&spades;` : the card's spades.
+* `&clubs;` : the card's clubs.
+* `&hearts;` : the card's hearts.
+* `&diams;` : the card's diamond.
+* `kbd` : displays as computer generated code.
+ 
 
 
 
