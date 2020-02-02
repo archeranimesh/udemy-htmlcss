@@ -173,6 +173,13 @@ In this section we will learn about
 * **In-line** : Inline elements only occupy that much width which is required for them
     - `a`, `strong` : these are example for in-line elements.
 
+### Div, Span, id, Class ###
+* `div` is a block element, used to separate section of the website.
+* `span` is a in-line element, used to group in-line element in a document.
+* `id=main-header` : uniquely identifies an element in the documents.
+* `class=card` : groups multiple element into a common group.
+* `&copy;` : is a HTML entities. 
+
 
 
 
