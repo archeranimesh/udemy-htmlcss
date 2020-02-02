@@ -144,8 +144,28 @@ In this section we will learn about
 * Complete form is surrounded with the `form` tag.
     - `<form action="#">` : the attribute of the `action` send all the form information to the server file mentioned in `action`.
 * `label` : the label tag is used to display a text as a label
-* `input` : input takes various forms, when `type = "text"` the input is a text box.
+* `input` : 
     - When the `for` attribute on `label` matches the `id` attribute of `input`, on clicking the label, cursor is moved to corresponding input.
+    - input takes various forms
+        + `type = "text"` : the input is a text box.
+            * `value="John doe"` : We can hard code a value in the text box,
+        + `type="email"` : the input is a text box for email.
+            * `placeholder="Enter your email"` : displays a text which is removed once we click on the box.
+        + `type="number"` : Restricts the input field for number.
+        + `type="date"` : Provides with a date picker and a input for only dates.
+        + `type="radio"` : provides with option to show radio button with different values, grouped by a `label`
+        + `type="checkbox"` : provides with multi select checkbox.
+            * `checked` : pre select the value for both `radio` and `checkbox`.
+        + `type="submit"` : To provide the submit button, can also use the `button` tag.
+        + 
+* `textarea` : when we want to have a bigger area to write text.
+    - `<textarea name="message" id="message" cols="50" rows="5"></textarea>`
+* `select` : Provides a drop down list.
+    - `option` : the various option for the `select tag.`
+    - `selected` : have a pre-selected values. `autocomplete=off` to make it work on firefox.
+* `button` : provides different `button` type.
+    - `type="submit"` : Creates a Submit Button
+    - `type="reset"` : Creates a Reset button, which resets all the form field.
 
 
 
