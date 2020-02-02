@@ -168,6 +168,10 @@ In this section we will learn about
     - `type="reset"` : Creates a Reset button, which resets all the form field.
 
 ### Block and In-line ###
+* **Block** : Block elements are those who occupy the whole width of the page.
+    - `p`, `ul, li` etc are the example for the block level elements.
+* **In-line** : Inline elements only occupy that much width which is required for them
+    - `a`, `strong` : these are example for in-line elements.
 
 
 
