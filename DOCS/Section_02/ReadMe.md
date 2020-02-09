@@ -29,6 +29,7 @@ In this section we will be learning about:-
     }
 </style>
 ````
+
     - External CSS : We can add an external file, named `style.css` and then include this file within the HTML by using `<link>` element.
         + `<link rel="stylesheet" href="css/style.css">`
         + This is the most preferred way to include CSS into HTML.
