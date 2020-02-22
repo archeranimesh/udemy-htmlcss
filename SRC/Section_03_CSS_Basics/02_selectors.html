@@ -5,17 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
-        #green-heading{
+        /* element styling */
+        body{
+            background-color: #333;
+        }
+        /* . is for class */
+        .primary-heading{
             color: green;
         }
+
+        /* # is for ids */
+        #welcome{
+            background-color: #f4f4f4;
+        }
+
+        #about{
+            color: white;
+        }
+
+        /* multiple selector */
+        #welcome, #about{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* nested selector */
+        #welcome p{
+            font-size: 20px;
+
+        }
+
     </style>
 </head>
 <body>
-    <div>
-        <h2 id="green-heading">Welcome</h2>
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti corporis vel, labore doloribus non nobis animi est neque magnam.</p>
     </div>
-    <div>
+    <div id="about">
         <h2>About</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odio velit sint cum! Illo quaerat similique aperiam veritatis alias!</p>
     </div>
