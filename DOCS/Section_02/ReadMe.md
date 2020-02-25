@@ -157,4 +157,53 @@ body{
     - Horizontal or Vertical or not repeated at all.
 * `background-position` : CSS property sets the initial position for each background image.
 * `background-size` : It sets the size of the background image, `cover` is the value which does not stretches the image.
+* `background-attachment` : If the background
+
+
+
+## Box Model ##
+
+* CSS Reset:-
+    - There is default margin, padding and other CSS property defined by the browser, we can override it by using the CSS Reset like this.
+
+````css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```` 
+
+* `box-sizing: border-box;` : When we specify the width of a element, and in addition to that specify the margin and padding, then due to `content-box` being the default `box-sizing` value it will add to the width both margin and padding.
+    - If that is not the required behavior then change it to `border-box` then everything will be included in the `width.`
+* Box Model : The box model as shown in browser.
+
+![Box model of the browser](img/box_model.png "Box model of the browser")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
