@@ -141,3 +141,12 @@ body{
     - HEX Values :  We can also specify the rgb value using HEX value like `#dddddd`
         + The Six values are divided into, first 2 values for Red, next 2 for green, and last 2 Blue.
         + We can also specify only 3 values. 
+
+## Background and Borders ##
+* `background-color` : Specify a background color and a element.
+* `border-width` : The width of the border.
+* `border-color` : The color of the border.
+* `border-style` : The style of the border, like `dashed`, `solid`
+* `border: 3px chartreuse solid;` In place of specifying the above 3 property we can give it in this one line.
+* `border-radius` : we can specify the border radius in CSS3.
+
