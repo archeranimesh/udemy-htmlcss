@@ -140,4 +140,4 @@ body{
         + the value have a range of 0 - 255 for each red, green and yellow values.
     - HEX Values :  We can also specify the rgb value using HEX value like `#dddddd`
         + The Six values are divided into, first 2 values for Red, next 2 for green, and last 2 Blue.
-        + We can also specify only 3 values.
+        + We can also specify only 3 values. 
