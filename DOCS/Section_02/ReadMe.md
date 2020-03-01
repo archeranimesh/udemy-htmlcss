@@ -149,4 +149,12 @@ body{
 * `border-style` : The style of the border, like `dashed`, `solid`
 * `border: 3px chartreuse solid;` In place of specifying the above 3 property we can give it in this one line.
 * `border-radius` : we can specify the border radius in CSS3.
+* `background` : This is a shorthand CSS property to set all background style properties at once.
+* `border-top` : We can also specify only one border direction, like `top`, `left`, `right` or `bottom`.
+* `border-top-left-radius` : We also specify just the `top` `left` border radius.
+* `background-image` : It sets one or more background images on the element.
+* `background-repeat` : CSS property sets how the background image are repeated.
+    - Horizontal or Vertical or not repeated at all.
+* `background-position` : CSS property sets the initial position for each background image.
+* `background-size` : It sets the size of the background image, `cover` is the value which does not stretches the image.
 
