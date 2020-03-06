@@ -257,6 +257,14 @@ margin-left: 20px;
 }
 ````
 
+## Navigation Menu and Sidebar ##
+* The navigation menu and Sidebar are 2 important menu techniques in CSS.
+* `.side-menu li:last-child` : Sometime we want the last element of a list to be styled differently, we can use the `last-child` property to target that particular element.
+* `list-style: none;` : removes the bullets in the list element,
+* `line-height: 2.4em;` : puts space between 2 `li` elements if targeted for `li`.
+* `overflow: auto;` : This expands to background to the shape of the content when the overflow property is set.
+
+
 
 
 
