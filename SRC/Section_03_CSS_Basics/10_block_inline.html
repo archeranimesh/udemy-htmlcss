@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & Block Styling</title>
+</head>
+<style>
+    html{
+
+    }
+    /* changes an li to become inline, removes the bullet as well */
+    li{
+        display: inline;
+    }
+    li a{
+        padding-right: 20px;
+    }
+
+    img{
+        /* margin auto has no impact on inline element */
+        margin: auto;
+        /* setting the inline element as block, the above auto centers it */
+        display: block;
+    }
+    .box{
+        background: #f4f4f4;
+        padding:20px;
+        margin-bottom: 15px;
+        width: 32%;
+        /* display inline removes the effect of width, as it is inline */
+        /* display: inline; */
+        /* inline-block honors both width and padding */
+        display: inline-block;
+        /* includes padding in the width */
+        box-sizing: border-box;
+    }
+
+
+</style>
+<body>
+    <ul>
+        <!-- li is a block level element -->
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- img is a inline element -->
+    <img src="./img/leaf.png" alt="my image">
+
+    <br>
+    <br>
+    <br>
+
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam cumque fuga et ea iusto. Nam qui voluptate ea ducimus eligendi.</p>
+    </div>
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto officiis quas voluptatibus quod rerum impedit quibusdam maiores similique doloremque incidunt.</p>
+    </div>
+    <div class="box">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis laborum delectus dolore dolorem, corporis temporibus saepe maiores ratione sunt?</p>
+    </div>
+</body>
+</html>
