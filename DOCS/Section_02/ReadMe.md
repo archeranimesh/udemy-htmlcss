@@ -281,7 +281,8 @@ margin-left: 20px;
     * Inline-block makes the content only that much in width as required by the content, placing the next element right next with the padding and margin honored.
 * `box-sizing`: Setting the box-sizing as border-box, helps in adding the padding and margin in the calculation of width.
 
-## CSS Position. ##
+## CSS Position ##
+There are total of 6 CSS Position type.
 
 
 

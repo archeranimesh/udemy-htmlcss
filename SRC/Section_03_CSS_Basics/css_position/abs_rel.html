@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absoulute & Relative</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        color: white;
+    }
+    .box-1{
+        background-color: crimson;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        width: 100px;
+        position: relative;
+        left: 100px;
+        /* opacity: 0.1; */
+    }
+    .box-2{
+        background-color: darkblue;
+        margin-bottom: 5px;
+        width: 100px;
+        position: relative;
+        left: 200px;
+        /* opacity: 0.1; */
+    }
+    .parent{
+        border: 1px solid white;
+        background-color: yellow;
+        position: absolute;
+        top: 100px;
+    }
+
+</style>
+<body>
+    <div class="parent">
+        <div class="box-1">
+            <h3>First Div</h3>
+        </div>
+        <div class="box-2">
+            <h3>Second Div</h3>
+        </div>
+    </div>
+</body>
+</html>
