@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        min-height: 1400px;
+    }
+    h3{
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    #box-1{
+        background-color: blanchedalmond;
+        left: 100px;
+    }
+    #box-2{
+        background-color: burlywood;
+        position: relative;
+        left: 100px;
+    }
+    #box-3{
+        background-color: cadetblue;
+        position: relative;
+        left: 100px;
+    }
+    #box-4{
+        background-color: chocolate;
+    }
+    #box-5{
+        background-color: coral;
+        position: fixed;
+        /* top: 0;
+        left: 0; */
+    }
+    .container{
+        border: 1px solid red;
+        /* toggle the to see the fun */
+        position: absolute;
+        /* position: relative; */
+        background-color: cornsilk;
+        left: 100px;
+    }
+</style>
+<body>
+    <div id="box-1" class="box"><h3>1</h3></div>
+    <div id="box-2" class="box"><h3>2</h3></div>
+    <div class="container">
+        <div id="box-3" class="box">
+            <h3>3</h3>
+        </div>
+    </div>
+    <div id="box-4" class="box"><h3>4</h3></div>
+    <div id="box-5" class="box"><h3>5</h3></div>
+</body>
+</html>
