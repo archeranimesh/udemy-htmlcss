@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        body{
+            height: 4000px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+
+        .container{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background: #333;
+        }
+
+        #box-1{
+            /* default postioning is static */
+            /* position: static; */
+            /* position relative means, relative to parent */
+            /* top, left, right and bottom works */
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-color: red;
+            z-index: 1;
+        }
+        #box-2{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            background-color: yellow;
+        }
+        #box-3{
+            position: absolute;
+            bottom: 100px;
+            right: 100px;
+            background-color: green;
+        }
+        #box-4{
+            position: fixed;
+            background-color: blue;
+        }
+        #box-5{
+            position: sticky;
+            top: 0;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1" class="box"></div>
+    <div class="container">
+        <div id="box-2" class="box"></div>
+        <div id="box-3" class="box"></div>
+    </div>
+    <div id="box-4" class="box"></div>
+    <div id="box-5" class="box"></div>
+</body>
+</html>
