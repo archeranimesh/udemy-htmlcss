@@ -283,6 +283,33 @@ margin-left: 20px;
 
 ## CSS Position ##
 There are total of 6 CSS Position type.
+* `static` :
+    - This is the default set by CSS, we do not have to set it. 
+    - This should only be set if the position was changed previously and we want to change it to static.
+    - The value of `top`, `left`, `right`, `bottom` and `z-index` has no impact on this position.
+* `relative` : 
+    - This position does not move the element out of the document flow.
+        + This means that the next element after an relative element will come at the same position irrespective of the current element position.
+    - The value of `top`, `left`, `right`, `bottom` and `z-index`, moves the element that many position from where it was originally supposed to be present.
+* `absolute` :
+    - `absolute` position moved the element out of the document flow.
+        + The next element come immediately after the previous element as though the current element was not present at all.
+    - The value of `top`, `left`, `right`, `bottom` and `z-index`, moves the element based on the parent elements.
+* `fixed` :
+    - `fixed` also removes the element out of the document flow.
+    - The position remains constant to the present document flow, as and when we scroll, the position still remains same.
+    - The value of `top`, `left`, `right`, `bottom` and `z-index`,  decides where the element will be positioned.
+* `sticky` :
+    - It does not remove the element from the normal flow of document.
+    - The element moves along with scroll, and behave like `relative`, once the scroll goes beyond a certain point it get fixed at the location mentioned.
+    - The value of `top`, `left`, `right`, `bottom` and `z-index`,  decides where the element will be positioned.
+* `inherit` :
+
+### Reference for CSS Position ###
+* [MDN | CSS | position ](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+* [CSS-Tricks | Position ](https://css-tricks.com/almanac/properties/p/position/)
+* [CSS-Tricks | Abs Vs Relative ](https://css-tricks.com/absolute-positioning-inside-relative-positioning/)
+
 
 
 
