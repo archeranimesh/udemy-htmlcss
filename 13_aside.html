@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside-Visibility, order and Negative Margin</title>
+    <style>
+        h1{
+            /* the space is gone */
+            /* display: none; */
+            /* the space is still present */
+            /* visibility: hidden; */
+            /* !important sets it back to blue, because now class does not have precedence */
+            color: blue !important; 
+        }
+        .red{
+            color: red;
+            /* we can also have negative value. */
+            margin-top: -15px;
+            margin-left: -15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="red">Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae quam nihil? Vero, labore obcaecati.</p>
+</body>
+</html>
