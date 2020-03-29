@@ -17,6 +17,7 @@ a{
 }
 
 h1,h2,h3{
+    /* because we removed all padding in reset */
     padding-bottom: 20px;
 }
 
