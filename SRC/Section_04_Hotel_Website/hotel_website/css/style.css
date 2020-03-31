@@ -12,7 +12,6 @@ html,body{
 }
 
 a{
-    color: #fff;
     text-decoration: none;
 }
 
@@ -33,12 +32,48 @@ p{
     padding:0 20px
 }
 
+.text-primary{
+    color: #f7c08a;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/* margin is not used as it does not shape around content */
+/* .btn-1{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    margin: 13px 20px;
+} */
+
 /* Navbar */
 #navbar{
     background: #333;
     /* The below color will not work for link tags */
     color: #fff;
     overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
 }
 
 /* logo to the left  */
@@ -66,6 +101,7 @@ p{
     padding: 20px;
     /* margin: 20px; */
     text-align: center;
+    color: #fff;
 }
 
 #navbar ul li a:hover,
@@ -73,3 +109,26 @@ p{
     background: #444;
     color: #f7c08a;
 }
+
+/* showcase */
+#showcase{
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+

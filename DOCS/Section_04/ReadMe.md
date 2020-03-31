@@ -18,6 +18,9 @@
 ### Horizontal Centering ###
 * We can horizontally center an item with this parameters.
 
+## Showcase ##
+* Always add a container around the content and inside a bigger container to restrict the expansion of the content.
+
 ````css
 .hori-center{
     max-width:400px;
