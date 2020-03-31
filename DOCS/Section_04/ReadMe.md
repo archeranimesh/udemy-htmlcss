@@ -28,6 +28,7 @@
 }
 ````
 
+* `section` tags can be used to separate different part of the website.
 
 ## Reference ##
 * [The best free stock photos & videos shared by talented creators.](https://www.pexels.com/)
