@@ -90,6 +90,8 @@ p{
 .py-2 {padding: 20px 0;}
 .py-3 {padding: 30px 0;}
 
+.l-heading{font-size: 40px;}
+
 /* Navbar */
 #navbar{
     background: #333;
@@ -206,6 +208,7 @@ p{
     display: block;
     margin: auto;
     width: 70%;
+    border-radius: 50%;
 }
 
 #about-info .info-left{

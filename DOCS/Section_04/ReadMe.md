@@ -45,6 +45,10 @@
 * We should remove the `float` effect by having a `clear:both` just after floated div.
 
 
+## About Page ##
+* CSS class should have a definite styling. Do not club different type of styling into one.
+
+
 ## Reference ##
 * [The best free stock photos & videos shared by talented creators.](https://www.pexels.com/)
 * [FontAwesome](https://fontawesome.com/)
