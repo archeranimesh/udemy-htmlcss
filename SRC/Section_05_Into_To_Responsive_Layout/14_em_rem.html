@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em and Rem Units</title>
+    <style>
+        .box-1{
+            font-size: 20px;
+        }
+        .box-1 p{
+            font-size: 1.5em;
+            /* The padding will be 30px, as the font-size is set on element */
+            padding: 1em;
+        }
+        /* Nested element's size is difficult with em. */
+        .box-1 ul{
+            font-size: 1.2em;
+        }
+        /* rem using uses the root element font-size=16px */
+        /* Accesibility also works with REM */
+
+        html{
+            font-size: 10px;
+            /* More responsive */
+            /* font-size: 62.5%; */
+        }
+
+        .box-2 h3{
+            font-size: 2rem;
+        }
+
+        .box-2 p{
+            font-size: 1.6rem;
+            /* line height goes to the root element no to the parent element. */
+            line-height: 1.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nihil dolore velit nemo quasi corrupti ratione neque, sit numquam.</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <li>4</li>
+        </ul>
+    </div>
+    <div class="box-2">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nihil dolore velit nemo quasi corrupti ratione neque, sit numquam.</p>
+    </div>
+</body>
+</html>
