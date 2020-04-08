@@ -57,11 +57,22 @@
     - It has a universal effect on the complete web page and if more responsive.
     - `html` font size by default is `16px`
 
+## Vh and Vw ##
+
+* The `body` does not take up all the 100% of the height.
+* `vh` and `vw` is used to slice the complete view port into horizontal and vertical slice of equal dimensions.
+* `vh`
+    - This is for the height
+    - The value of `vh` is calculated based on the current view port size.
+    - If a browser is resized it uses the re-size value.
+* When we scroll we next the content immediately.
 
    
 
 ## Reference ##
 * [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
+* [Unsplash Source](https://source.unsplash.com/)
+* [Fun with Viewport Units ](https://css-tricks.com/fun-viewport-units/)
   
 
 
