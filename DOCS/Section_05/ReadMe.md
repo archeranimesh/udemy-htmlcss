@@ -55,6 +55,7 @@
 * REM
     - `rem` units are font-size relative to the root elements (`html`) font-size.
     - It has a universal effect on the complete web page and if more responsive.
+    - `html` font size by default is `16px`
 
 
    
