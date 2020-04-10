@@ -46,4 +46,21 @@
 * We can also add different CSS files based on media query
     - `<link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css">`
 
+## EM and REM Units ##
+
+* EM
+    - `em` units are font-size relative to its direct or nearest parents.
+    - It causes issues if you have nested `ul` and `li`, then the size will vary.
+    - `em` is good to control a certain section of the HTML page.
+* REM
+    - `rem` units are font-size relative to the root elements (`html`) font-size.
+    - It has a universal effect on the complete web page and if more responsive.
+
+
+   
+
+## Reference ##
+* [Confused About REM and EM?](https://j.eremy.net/confused-about-rem-and-em/)
+  
+
 
