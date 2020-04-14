@@ -9,18 +9,38 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            /* box-sizing: border-box; */
+            box-sizing: border-box;
         }
-        ul {  display: flex; /*or inline-flex*/}
-        li {  width: 100px;  height: 100px;  background-color: #8cacea;  margin: 8px; list-style: none; text-align: center;}
+        ul{
+            list-style: none;
+        }
+        .container{
+            border: 1px solid #333;
+            padding: 20px 20px;
+            display: flex;
+            background: #f4f4f4;
+        }
+        .primary{
+            background: #f7c08a;
+        }
+        .alternate{
+            background: #666;
+        }
+        .item{
+            width: 36px;
+            height: 36px;
+            padding: 8px;
+            border: 1px solid #666;
+            text-align: center;
+        }
         
     </style>
 </head>
 <body>
     <ul class="container">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li class="item primary">1</li>
+        <li class="item alternate">2</li>
+        <li class="item primary">3</li>
     </ul>
     <!-- https://www.samanthaming.com/flexbox30/12-justify-content-row/ TODO: make ui like this -->
     <!-- https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/ -->
