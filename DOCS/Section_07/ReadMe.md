@@ -35,8 +35,8 @@
 .py-2{padding: 2rem 0;}
 .py-3{padding: 3rem 0;}
 ````
-        
-        * For all axis
+
+* For all axis
 
 
 ````css
@@ -44,9 +44,9 @@
 .p-2{padding: 2rem;}
 .p-3{padding: 3rem;}
 ````
-    - Background Color Classes
-        + We can have `bg-light`, `bg-dark` and a `bg-primary` color scheme for our backgrounds.
-        + The `bg-light` and `bg-dark` are both inverse of each other.
+- Background Color Classes
+    - We can have `bg-light`, `bg-dark` and a `bg-primary` color scheme for our backgrounds.
+    - The `bg-light` and `bg-dark` are both inverse of each other.
 
 
 ## Reference ##
