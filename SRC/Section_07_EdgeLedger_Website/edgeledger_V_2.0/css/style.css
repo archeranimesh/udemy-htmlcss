@@ -121,6 +121,12 @@ img {
     z-index: 1;
 }
 
+/* Blog Page */
+.hero.blog{
+    background: url('../images/home/blog.jpg') no-repeat center center/cover;
+    height: 30vh;
+}
+
 /* icons */
 .icons{
     padding: 30px;

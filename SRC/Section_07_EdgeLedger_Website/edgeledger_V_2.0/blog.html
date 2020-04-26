@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://cdnjs.com/# -->
+    <!-- the below causes issue with font awesome, uses svg to render -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/35844b7220.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <title>Read Our Blog</title>
+</head>
+<body id="home">
+    <header class="hero blog">
+        <div id="navbar" class="navbar">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Blog</h1>
+        </div>
+    </header>
+    <!-- everything except footer will go inside main -->
+    <main>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/blog/blog1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Blog Post One</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | Apr 26 2020
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas culpa recusandae nam ea, minima optio, vel quam sapiente perspiciatis, provident hic nostrum! Est at aut sequi, dolorem eaque consequuntur quaerat.</p>
+                        <a href="post.html" class="btn btn-dark">
+                            <i class="fas fa-chevron"></i> 
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/blog/blog2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>Blog Post Two</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i> Posted by <strong>Jane Doe</strong> | Apr 25 2020
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas culpa recusandae nam ea, minima optio, vel quam sapiente perspiciatis, provident hic nostrum! Est at aut sequi, dolorem eaque consequuntur quaerat.</p>
+                        <a href="post.html" class="btn btn-light">
+                            <i class="fas fa-chevron"></i> 
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/blog/blog3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Blog Post Three</h2>
+                        <p class="meta">
+                            <i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | Apr 26 2020
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas culpa recusandae nam ea, minima optio, vel quam sapiente perspiciatis, provident hic nostrum! Est at aut sequi, dolorem eaque consequuntur quaerat.</p>
+                        <a href="post.html" class="btn btn-dark">
+                            <i class="fas fa-chevron"></i> 
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2020 - EdgeLedger</p>
+    </footer>
+</body>
+</html>
