@@ -51,6 +51,7 @@ img {
     position: fixed;
     top: 0px;
     padding: 0 30px;
+    transition: 0.5s;
 }
 
 .navbar a{
@@ -71,6 +72,9 @@ img {
     font-weight: 400;
 }
 
+.navbar.top{
+    background: transparent;
+}
 /* Header */
 .hero{
     background: url('../images/home/showcase.jpg') no-repeat center center/cover;
