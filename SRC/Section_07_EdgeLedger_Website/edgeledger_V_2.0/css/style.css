@@ -209,3 +209,26 @@ img {
 .footer .social > *{
     margin-right: 30px;
 }
+
+/* Post */
+.post{
+    padding: 50px 30px;
+}
+
+.post h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc 1px solid;
+}
+
+.post .meta{
+    margin-bottom: 30px;
+}
+
+.post img{
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
