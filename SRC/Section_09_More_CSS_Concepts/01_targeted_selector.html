@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Targeted Selector</title>
+    <style>
+        /* Target all paragraphs under a div */
+        div p {
+            background: #ddd;
+        }
+        /* Target only direct child of a div */
+        div > p{
+            background: royalblue;
+        }
+        /* sibling selector */
+        div + p{
+            background: saddlebrown;
+            color: #fff;
+        }
+        /* attribute selector */
+        a[target]{
+            background-color: sienna;
+            color: #fff;
+        }
+        a[target='_self']{
+            background-color:skyblue;
+            color: #fff;
+        }
+        /* specific attribute Value */
+        input[type="text"]{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li>Item 1</li>
+            <li><p> Item 2 </p></li>
+            <li>Item 3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <a href="#">Page 1</a>
+    <a href="#">Page 2</a>
+    <a href="#" target="_self">Page 3</a>
+    <a href="http://www.google.com/" target="_blank">Google</a>
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Name">
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
