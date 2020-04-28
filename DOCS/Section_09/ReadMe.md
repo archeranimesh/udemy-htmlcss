@@ -15,3 +15,7 @@
     - `input[type="text"]` : select a particular `input` element whose type if `text`
         + `<input type="text" placeholder="Name">`
 
+
+
+## Reference ##
+* [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
