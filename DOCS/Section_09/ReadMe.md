@@ -15,6 +15,17 @@
     - `input[type="text"]` : select a particular `input` element whose type if `text`
         + `<input type="text" placeholder="Name">`
 
+## Pseudo classes ##
+* There are specific type of selector, which selects based on state of the elements.
+* For example if I have a document tree of 20 `li` elements, bellow are the ways I can select different `li` elements.
+    - `li:first-child` : Selects the first `li` element in the above 20 elements.
+    - `li:last-child` : Selects the last `li` elements in the above 20 elements.
+    - `li:nth-child(3)` : Selects the 3rd `li` elements in the above 20 elements.
+    - `li:nth-child(3n + 0)` : Selects every 3rd `li` element starting at 0 offset.
+    - `li:nth-child(3n+7)` : Selects every 3rd `li` elements starting at 7th offset.
+    - `li:nth-child(odd)` : Selects every odd `li` elements.
+    - `li:nth-child(even)` : Selects every even `li` elements.
+
 
 
 ## Reference ##
