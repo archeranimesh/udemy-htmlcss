@@ -25,8 +25,17 @@
     - `li:nth-child(3n+7)` : Selects every 3rd `li` elements starting at 7th offset.
     - `li:nth-child(odd)` : Selects every odd `li` elements.
     - `li:nth-child(even)` : Selects every even `li` elements.
+* There is also few special pseudo classes called `before` and `after`
+    - `header:before` : Style the area just before the content of `header`, not before `header`.
+        - `content:` : is a property used, which can insert content into the dom, without modifying the DOM.
+            + Generally it is kept `''` empty.
+    * `.is-required:after` : Same as `before`, after is used to modify the content after the content of element.
 
 
 
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+* [YouTube | LevelUp ](https://www.youtube.com/user/LevelUpTuts/playlists)
+* [](https://www.youtube.com/watch?v=zGiirUiWslI)
+* [](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
+
