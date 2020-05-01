@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Box Shadow Example</title>
+    <style>
+    body {background:#ccc}
+
+    .box h3{
+    text-align:center;
+        position:relative;
+        top:80px;
+    }
+    .box {
+        width:70%;
+        height:200px;
+        background:#FFF;
+        margin:40px auto;
+    }
+
+    .effect1{
+        box-shadow: 10px 10px 6px -6px #777;
+    }
+
+    .effect2{
+        box-shadow: inset 10px 10px 6px -6px #777;
+    }
+    </style>
+</head>
+<body>
+    <div class="box effect1">
+        <h3>Effect 1</h3>
+    </div>
+
+    <div class="box effect2">
+        <h3>Effect 1</h3>
+    </div>
+</body>
+</html>
