@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Shadows</title>
+    <style>
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 4rem;
+        }
+        /* element had a class */
+        h1.a{
+            /* h-shadow | v-shadow | color */
+            text-shadow: 0.2rem 0.2rem steelblue;
+        }
+
+        h1.b{
+            /* h-shadow | v-shadow | blur | color */
+            text-shadow: 0.2rem 0.2rem 0.7rem steelblue;
+        }
+
+        h1.c{
+            /* white Text */
+            color: #fff;/* h-shadow | v-shadow | color */
+            text-shadow: 0.2rem 0.2rem 1rem steelblue;
+        }
+
+        h1.d{
+            /* Negative Values */
+            text-shadow: -0.2rem -0.2rem 1rem steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a">Welcome To My Course</h1>
+    <h1 class="b">Welcome To My Course</h1>
+    <h1 class="c">Welcome To My Course</h1>
+    <h1 class="d">Welcome To My Course</h1>
+</body>
+</html>
