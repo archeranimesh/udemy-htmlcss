@@ -52,6 +52,22 @@ box-shadow: /* offset-x | offset-y | blur-radius | spread-radius | color */;
     - **color** : the color of the shadow, generally it is preferred to use a value of `rgba(0,0,0,0.5)`.
     - `inset` : `inset` is one additional attribute which makes the shadow inside the element and not outside.
 
+## Text Shadow ##
+* `text-shadow` CSS property adds shadows to the text.
+
+````css
+text-shadow: /* offset-x | offset-y | blur-radius | color */;
+````
+* Unlike `box-shadow`, the text shadow takes only 4 parameters.
+    - `offset-x`: depending on the value provided, it draws the shadow in the respective direction on x-axis
+        + `+`ive value creates a shadow on the right of the element.
+        + `-`ive value creates a shadow on the left of the element.
+    - `offset-y`: depending on the value provided, it draws the shadow in the respective direction on y-axis
+        + `+`ive value creates a shadow on the bottom of the element.
+        + `-`ive value creates a shadow on the top of the element.
+    - **blur-radius** : a value of `0` will have sharp shadow, where as a positive value will have a blur effect.
+        + The blur radius is added to the x and y offset.
+    - **color** : the color of the shadow, generally it is preferred to use a value of `rgba(0,0,0,0.5)`.
 
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
