@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Frame Animation</title>
+    <style>
+        body{
+            background: #333;
+        }
+        .box{
+            background: white;
+            width: 200px;
+            height: 200px;
+            position: relative;
+
+            /* animation */
+            animation-name: width-animate;
+            animation-duration: 2s;
+            /* how many times it should repeat. */
+            animation-iteration-count: 1;
+            /* the animation will end at the final stage, not revert to initical */
+            animation-fill-mode: forwards;
+            /* delay the start of animation. */
+            animation-delay: 2s;
+            /* reverse the animation direction */
+            /* animation-direction: alternate-reverse; */
+            /* ease-in | ease-out | ease-in-out */
+            animation-timing-function: ease-in;
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: width-animate 2s ease-in 0 1  forwards;
+        }
+
+        @keyframes width-animate{
+            from{
+                top: 0;
+            }
+            to{
+                width: 600px;
+                background-color: turquoise;
+                top: 300px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
