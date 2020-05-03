@@ -69,6 +69,27 @@ text-shadow: /* offset-x | offset-y | blur-radius | color */;
         + The blur radius is added to the x and y offset.
     - **color** : the color of the shadow, generally it is preferred to use a value of `rgba(0,0,0,0.5)`.
 
+## CSS Variables ##
+* Custom values can defined using CSS variables, which can then be reused in the complete style sheet.
+
+````css
+:root{
+    --light-color:#f4f4f4;
+}
+
+body{
+    background: var(--light-color);
+}
+````
+* `:root` pseudo class is used to define a variable, in this case `--light-color` to be accessible to all the elements.
+* A CSS Variable name starts with `--` followed by a property name, and the value.
+* The CSS Variable can be reused/ accessed using `var(--variable-name)` .
+* CSS Variables can also be defined at the local scope, meaning applicable only for a element or a class in place of global.
+* If a CSS variable is not valid we can provide a fall back option, ex `color: var(--my-var, red);` if `--my-var` is not defined, `red` is the fall back.
+* If a CSS Variable provides a invalid value, it defaults to the default value.
+* CSS Variables are also accessible from Javascript.
+
+
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 * [YouTube | LevelUp ](https://www.youtube.com/user/LevelUpTuts/playlists)
@@ -77,4 +98,12 @@ text-shadow: /* offset-x | offset-y | blur-radius | color */;
 * [CSS Before and After pseudo elements explained - part three: as design elements](https://www.youtube.com/watch?v=djbtPnNmc0I&t=52s)
 * [CSS-Tricks | box-shadow ](https://css-tricks.com/almanac/properties/b/box-shadow/)
 * [MDN | box-shadow ](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+* [CSS Variables Tutorial (CSS Custom Properties)](https://www.youtube.com/watch?v=sQUB039MG0I)
+* [CSS Variables - An introduction to CSS custom properties ](https://www.youtube.com/watch?v=PHO6TBq_auI)
+* [CSS Variables - Using them in the real world and a cool trick ](https://www.youtube.com/watch?v=V9yP0QG0NWI)
+* [CSS Variables - CSS vs Sass - variables inside media queries ](https://www.youtube.com/watch?v=19e7_3UmQrI)
+* [CSS Variables - Browser Fallbacks ](https://www.youtube.com/watch?v=kCmL-O2T7DY)
+* [CSS Variables - Sass to the rescue for fallbacks ](https://www.youtube.com/watch?v=wI80oS3KLxY)
+* [CSS Variables - manipulating them with JavaScript](https://www.youtube.com/watch?v=cZ0yt67A7OM)
+* [Lea Verou - CSS Variables: var(--subtitle);](https://www.youtube.com/watch?v=2an6-WVPuJU)
 
