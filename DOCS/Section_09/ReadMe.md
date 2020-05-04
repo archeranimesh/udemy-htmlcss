@@ -90,6 +90,61 @@ body{
 * CSS Variables are also accessible from Javascript.
 
 
+## Key Frame Animation ##
+* `@keyframes` is a way to determine the animation to be done provided a `from` steps, `to` step.
+
+````css
+@keyframes width-animate{
+        from{
+            top: 0;
+        }
+        to{
+            top: 300px;
+        }
+    }
+````
+* The above animation `width-animate` will change the `top` value from `0` to `300px` with animation.
+
+* The animation starts when we give this CSS property.
+
+````css
+/* The animation-name property is provided with the key frame animation name, width-animate */
+.box{
+    animation-name: width-animate;
+}
+````
+* The various animation property which we can provide.
+* `animation-duration` : Provides the duration of the animation in `2s` seconds or `2ms` milliseconds.
+* `animation-iteration-count` : Number of times an animation should happen, we can even give `infinite` as an option.
+* `animation-fill-mode` : The target of an animation is specified with this attributes.
+    - `none` : No target fill is provided when the animation ends.
+    - `forwards` : The target will retain the computed values calculated by the **last** keyframe animation.
+    - `backwards` : The target will retain the computed values calculated by the **first** keyframe animation.
+        + This works when the starting position is not initial position of animation.
+    -`both` : This is a combination of both `backwards` and `forwards`.
+* `animation-delay`: It sets after how much delay the animation should start.
+* `animation-direction` : In which direction the animation should happen.
+    - `normal` : this is the default option, which means forwards direction, basically starting from `from` ending in `to`.
+    - `reverse` : The animation plays backwards.
+    - `alternate` : The animation changes direction in each cycle.
+    - `alternate-reverse` : same as `alternate`, just that the first animation starts backwards.
+* `animation-timing-function` : This property sets how the animation should progress.
+    - `ease` : slow in start and end, fast in between
+    - `linear` : animates at even speed.
+    - `ease-in` : start slow, and then catches up at the end.
+    - `ease-out` : start fast and then easing at the end.
+    - `ease-in-out` : Same as `ease`, only `ease-in-out` is little more linear in animation.
+* There is a short cut property which can set all the above animation property in 1 place.
+* `animation` : It is a shorthand of all these below animation property.
+    - `animation-name`
+    - `animation-duration`
+    - `animation-timing-function`
+    - `animation-delay`
+    - `animation-iteration-count`
+    - `animation-direction`
+    - `animation-fill-mode`
+    - `animation-play-state`
+
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 * [YouTube | LevelUp ](https://www.youtube.com/user/LevelUpTuts/playlists)
@@ -106,4 +161,6 @@ body{
 * [CSS Variables - Sass to the rescue for fallbacks ](https://www.youtube.com/watch?v=wI80oS3KLxY)
 * [CSS Variables - manipulating them with JavaScript](https://www.youtube.com/watch?v=cZ0yt67A7OM)
 * [Lea Verou - CSS Variables: var(--subtitle);](https://www.youtube.com/watch?v=2an6-WVPuJU)
+* [KeyFrame Animation ](https://www.smashingmagazine.com/2011/05/an-introduction-to-css3-keyframe-animations/)
+* [CSS Animation Tutorial #5 - Animation Fill Mode](https://www.youtube.com/watch?v=irJXZnA3g5U)
 
