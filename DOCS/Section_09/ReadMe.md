@@ -145,6 +145,21 @@ body{
     - `animation-fill-mode`
     - `animation-play-state`
 
+* `@keyframes` also support intermediate percentages in the animation.
+
+```css
+@keyframes animate{
+25%{
+    top: 0;
+    left: 300px;
+    background: red;
+    border-radius: 50% 0 0 0;
+}
+
+```
+
+* The above example animates from `0%` to `25%`, and similarly we can specify different percentages. 
+
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 * [YouTube | LevelUp ](https://www.youtube.com/user/LevelUpTuts/playlists)
