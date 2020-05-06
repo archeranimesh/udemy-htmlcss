@@ -158,7 +158,29 @@ body{
 
 ```
 
-* The above example animates from `0%` to `25%`, and similarly we can specify different percentages. 
+* The above example animates from `0%` to `25%`, and similarly we can specify different percentages.
+
+## CSS Transitions ##
+* **CSS Transitions** provides a way to control animation speed while changing a CSS property.
+* In place of a sudden changes in property, CSS transitions make the transition smooth.
+* Not all properties can be animated, here is a list from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+* Different types of CSS Transitions properties are
+    - `transition-property` : The CSS property like `background` etc on which the transition will be applied.
+        + The values it takes are
+            * `none` : No property will transition.
+            * `all` : All property for the possible list will transition.
+            * `custom_ident` : Any individual CSS property on which transition can be applied.
+    - `transition-duration` : The length/time taken for the animation to complete.
+    - `transition-timing-function` : How is the intermediate value is calculated.
+        - `ease` : slow in start and end, fast in between
+        + `linear` : animates at even speed.
+        + `ease-in` : start slow, and then catches up at the end.
+        + `ease-out` : start fast and then easing at the end.
+        + `ease-in-out` : Same as `ease`, only `ease-in-out` is little more linear in animation.
+    - `transition-delay` : Animation should start with how much delay.
+* All the previous properties can be combined into 1 property.
+    - `transition` : `transition: margin-right 4s ease-in-out 1s;`
+
 
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -178,4 +200,5 @@ body{
 * [Lea Verou - CSS Variables: var(--subtitle);](https://www.youtube.com/watch?v=2an6-WVPuJU)
 * [KeyFrame Animation ](https://www.smashingmagazine.com/2011/05/an-introduction-to-css3-keyframe-animations/)
 * [CSS Animation Tutorial #5 - Animation Fill Mode](https://www.youtube.com/watch?v=irJXZnA3g5U)
+* [Using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
