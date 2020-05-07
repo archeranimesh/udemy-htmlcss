@@ -181,6 +181,18 @@ body{
 * All the previous properties can be combined into 1 property.
     - `transition` : `transition: margin-right 4s ease-in-out 1s;`
 
+## CSS Transforms ##
+* CSS transforms tells us an element which is styled by CSS can be transformed int 2/3-Dimensional Space.
+* CSS transforms changes the shape and position of an element without disrupting the document flow.
+* Only Block level elements can be transformed.
+* Using CSS Transforms with CSS transition can produce very innovative animations.
+* Different CSS transform properties ares:-
+    - `rotate(25deg);` : rotates the element by `25`deg.
+    - `skew(25deg);` : skews the element by `25`deg.
+    - `scale(2);` : Scales the element by `2`.
+    - `translate(100px, 100px);` : moves the element by `x` and `y` position.
+    - `translate3d(100px, 100px, 0px);` : moves the element by `x`, `y` and `z` co-ordinates.
+
 
 ## Reference ##
 * [MDN | CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
