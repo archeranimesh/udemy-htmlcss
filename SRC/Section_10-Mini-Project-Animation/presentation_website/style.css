@@ -38,3 +38,17 @@ body{
     /* padding top,bottom = 0, left,right=4rem */
     padding: 0 4rem;
 }
+
+.page h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 1rem;
+}
+
+.page p{
+    font-size: 1.3rem;
+}
+
+.btn{
+    
+}
