@@ -58,4 +58,15 @@ body{
     border: none;
     margin-top: 1rem;
     font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+.btn-dark:hover{
+    background: #f4f4f4;
+    color: #333;
 }
