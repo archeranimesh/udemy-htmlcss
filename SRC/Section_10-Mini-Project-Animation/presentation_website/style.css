@@ -1,0 +1,40 @@
+:root{
+    --page-1-color: steelblue;
+    --page-2-color: tan;
+    --page-3-color: teal;
+    --page-4-color: slateblue;
+    --animate-speed: 1s;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    /* reset margin & padding */
+    margin: 0;
+    padding: 0;
+    /* hide the scroll bar */
+    overflow: hidden;
+}
+
+/* page Color */
+#page-1 {background-color: var(--page-1-color);}
+#page-2 {background-color: var(--page-2-color);}
+#page-3 {background-color: var(--page-3-color);}
+#page-4 {background-color: var(--page-4-color);}
+
+/* Page */
+.page{
+    display: flex;
+    /* change flex direction from horizontal to vertical */
+    flex-direction: column;
+    /* 1 page == full viewport */
+    height: 100vh;
+    /* center algin center, horizontal */
+    align-items: center;
+    /* center align center, vertical */
+    justify-content: center;
+    text-align: center;
+    /* padding top,bottom = 0, left,right=4rem */
+    padding: 0 4rem;
+}
