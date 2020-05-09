@@ -51,6 +51,7 @@ body{
 
 .btn{
     display: inline-block;
+    /* top,bottom-1rem left,right-2rem */
     padding: 1rem 2rem;
     background: #f4f4f4;
     color: #333;
@@ -69,4 +70,30 @@ body{
 .btn-dark:hover{
     background: #f4f4f4;
     color: #333;
+}
+
+/* Page Animation */
+#page-1 h1{
+    transform: translateY(-1200px);
+    animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p{
+    transform: translateX(-1800px);
+    animation: paragraph var(--animate-speed) forwards ease-in 2s;
+    
+}
+
+@keyframes heading{
+    to{
+        transform: translateY(0);
+        color: greenyellow;
+    }
+}
+
+@keyframes paragraph{
+    to{
+        transform: translateX(0);
+        color: #333;
+    }
 }
