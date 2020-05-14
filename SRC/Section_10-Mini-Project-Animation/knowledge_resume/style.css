@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #425b84;
+    --secondary-color: #5b7bb4;
+    --max-width: 1100px;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generic body */
+body{
+    font: normal 1rem/1.5 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background: var(--primary-color);
+    color: #fff;
+    /* no scroll on x axis */
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+/* header */
+#main-header{
+    background: var(--secondary-color);
+    padding: 4rem 0;
+}
+
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.3rem;
+}
