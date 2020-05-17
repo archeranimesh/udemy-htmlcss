@@ -97,3 +97,13 @@ body{
     color: #fff;
     font-size: 4rem;
 }
+/* responsive */
+@media(max-width: 600px){
+    #navbar ul li{
+        display: block;
+    }
+    #navbar ul li:hover ul{
+        width: 100%;
+        position: relative;
+    }
+}
