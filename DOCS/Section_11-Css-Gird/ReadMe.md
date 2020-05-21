@@ -31,6 +31,19 @@
     - `grid-auto-rows: 3fr` : the dimensions of the remaining rows.
 * We can use the `grid-template-columns` with `grid-template-rows` to create a horizontal and vertical layouts.
 
+## CSS Grid | Span ##
+* With both `grid-template-columns` & `grid-template-rows` we can controls the expansion in rows and columns.
+* `grid-column` : This is a short hand for these 2 column properties
+    - `grid-column-start` : The position where the element should begin, using this we can change the visual representation completely.
+    - `grid-column-end` : The position where the element should end, counted by the lines, and not block
+    - `grid-column: 1/4;` : the above two property can be combined in this manner.
+    - `grid-column: 1/span 3;` : we can give a span value, which means how many blocks, generally n - 1 line.
+* `grid-row` : This also a short hand for the below 2 row properties
+    - `grid-row-start` : The position where the element should begin.
+    - `grid-row-end` : The position were the element should end, counted by line.
+    - `grid-row: 1 / 2` : Combines the above 2 property together.
+    - `grid-row: 1 / span 2` : Provides the span value.
+
 
 ## Reference ##
 * [ A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
