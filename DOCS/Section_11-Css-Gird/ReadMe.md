@@ -30,6 +30,9 @@
     - `grid-template-rows: 1fr 2fr 3fr` : makes the first 3 items in the grid of these dimensions, remaining will be of older dimensions.
     - `grid-auto-rows: 3fr` : the dimensions of the remaining rows.
 * We can use the `grid-template-columns` with `grid-template-rows` to create a horizontal and vertical layouts.
+* `grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));` : Lot of things are happening in this 1 line.
+    - `minmax(300px, 1fr)` : the function makes sure the width of the columns is 300px at least, and then grows till 1fr, when we increase the window size.
+    - `auto-fit` : always fits the content to the full width of the browser.
 
 ## CSS Grid | Span ##
 * With both `grid-template-columns` & `grid-template-rows` we can controls the expansion in rows and columns.
@@ -48,3 +51,6 @@
 ## Reference ##
 * [ A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [CSS Grid Layout Crash Course ](https://www.youtube.com/watch?v=jV8B24rSN5o)
+* [WesBos | CSS GRID: Using minmax() for Responsive Grids — 13 of 25](https://www.youtube.com/watch?v=PuhObGdKSDs)
+* [Grid by Example | Introducing minmax()](https://gridbyexample.com/video/series-minmax/)
+* [WesBos | CSSGrid.io](https://cssgrid.io/)
