@@ -47,6 +47,35 @@
     - `grid-row: 1 / 2` : Combines the above 2 property together.
     - `grid-row: 1 / span 2` : Provides the span value.
 
+## CSS Grid | Grid Area ##
+* Grid area is a shorthand for
+    - ` grid-row-start`
+    - `grid-column-start`
+    - `grid-row-end`
+    - `grid-column-end`
+* `grid-template-areas` : It provides name grid areas
+    - A row is create by every separate string listed.
+    - A column is created by every cell in the string.
+
+```css
+.container{
+            display: grid;
+            grid-template-areas: 
+            'header header header'
+            'content content sidebar'
+            'box-1 box-2 box-3'
+            'footer footer footer';
+            grid-gap: 1rem;
+        }
+
+.content{
+            grid-area: content;
+        }
+```
+
+* As shown above `grid-template-areas` provides a string of columns in each row. like `content` is present in 2nd row for 2 columns.
+* `content` is denoted as a `grid-area ` as show above, now this class will be expanded to 2 columns.
+
 
 ## Reference ##
 * [ A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
@@ -54,3 +83,5 @@
 * [WesBos | CSS GRID: Using minmax() for Responsive Grids — 13 of 25](https://www.youtube.com/watch?v=PuhObGdKSDs)
 * [Grid by Example | Introducing minmax()](https://gridbyexample.com/video/series-minmax/)
 * [WesBos | CSSGrid.io](https://cssgrid.io/)
+* [MDN| grid-template-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+* [Easily Structure your Layout with CSS Grid's 'grid-template-areas'](https://www.youtube.com/watch?v=qTGbWfEEnKI)
