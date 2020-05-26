@@ -76,6 +76,24 @@
 * As shown above `grid-template-areas` provides a string of columns in each row. like `content` is present in 2nd row for 2 columns.
 * `content` is denoted as a `grid-area ` as show above, now this class will be expanded to 2 columns.
 
+* We can use media queries to make the content responsive, mainly by using the `grid-template-areas`, and reduce to appropriate columns.
+* The above code can be made responsive for mobile by doing this.
+
+```css
+@media(max-width: 500px){
+            .container{
+                grid-template-areas: 
+                'header'
+                'content'
+                'sidebar'
+                'box-1' 
+                'box-2' 
+                'box-3'
+                'footer';
+            }
+        }
+```
+* As you can understand we are changing the areas to single column for mobile, and we can change it to 2 columns for iPad etc.
 
 ## Reference ##
 * [ A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
