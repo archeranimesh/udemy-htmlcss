@@ -101,3 +101,37 @@ h1, h2, h3, h4, h5, h6{
     color: #777;
     margin-right: .5rem;
 }
+
+/* showcase */
+#showcase{
+    color: #fff;
+    background: #333;
+    padding: 2rem;
+    /* the before pseudo selctor will be absolute */
+    position: relative;
+}
+
+/* showcase image */
+#showcase::before{
+    content: '';
+    background: url('../img/featured.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+
+#showcase .showcase-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#showcase .showcase-content{
+    z-index: 1;
+}
