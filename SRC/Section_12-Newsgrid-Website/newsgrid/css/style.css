@@ -45,6 +45,9 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.3;
 }
 
+p{
+    margin: .5rem 0;
+}
 
 /* Utility Class */
 .container{
@@ -129,6 +132,16 @@ h1, h2, h3, h4, h5, h6{
 .p-2{padding: 2rem}
 .p-3{padding: 3rem}
 
+.list li{
+    padding: .5rem 0;
+    border-bottom: #555 dotted 1px;
+    width: 90%;
+}
+
+/* Solves the !important issue in actual video */
+#main-footer .list li a:hover{
+    color: var(--primary-color);
+}
 
 /* nav-bar */
 #main-nav{
@@ -233,4 +246,41 @@ h1, h2, h3, h4, h5, h6{
 }
 #home-articles .articles-container > *:last-child{
     grid-column: 2 / span 2;
+}
+
+#main-footer{
+    background: var(--dark-color);
+    color: #fff;
+}
+
+#main-footer img{
+    width: 150px;
+}
+
+#main-footer a{
+    color: #fff;
+}
+
+#main-footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child{
+    background: #444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
+#main-footer .footer-container input[type='email']{
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#main-footer .footer-container input[type='submit']{
+    width: 90%;
 }
