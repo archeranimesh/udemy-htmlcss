@@ -143,6 +143,18 @@ p{
     color: var(--primary-color);
 }
 
+/* Inner page grid container */
+.page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child{
+    grid-row: 1 / span 3;
+}
+
 /* nav-bar */
 #main-nav{
     background: #fff;
