@@ -50,3 +50,24 @@ a{
 ```
 
 * `.scss` works with brackets
+
+## Setup Node-SASS ##
+
+* Install Node.
+* `npm --version`
+    - Check if `npm` is installed.
+* `npm init -y`
+    - Creates the default `package.json` file.
+* `npm install node-sass`
+    - install `node-sass` as dependency.
+* Script to watch a folder and generate a CSS file.
+
+```json
+"scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+}
+```
+
+* `-w` : watches the `scss` folder.
+* `-o` : outputs to this folder, i.e compiled CSS.
+
