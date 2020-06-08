@@ -91,4 +91,31 @@ $font-stack : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 * SASS also supports partials, which means we can split our SASS files into multiple files, and then combine it into a single css file.
 * `_variables.scss` : the file name starts with `_` denoting that do not create a separate file.
-* We can import this file in any scss file by saying `@import 'variables';`, see the missing `_` and `.scss` file extension. 
+* We can import this file in any scss file by saying `@import 'variables';`, see the missing `_` and `.scss` file extension.
+
+## Nesting & Structuring ##
+* SASS offers to nest CSS values.
+* As shown below, the `h1` nested inside `header`, and the CSS works like `header h1`, it will not impact other `h1`.
+* SASS allows to have the HTML structure inside CSS.
+* `&` is used when we want to replace the name of the parent in a variable, as shown in the `.section`.
+* We can also use `&` for pseudo class.
+
+```sass
+header{
+    background: $dark-color;
+    color: $light-color;
+    padding: 1rem;
+    // nesting
+    h1{
+        text-align: center;
+    }
+}
+
+.section{
+    &-a{
+            background: $primary-color;
+            color: #fff;
+    }
+}
+```
+
