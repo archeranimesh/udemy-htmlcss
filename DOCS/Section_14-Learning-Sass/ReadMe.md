@@ -119,3 +119,33 @@ header{
 }
 ```
 
+## Inheritance ##
+* We can put common CSS properties into a SASS variable, and then extend it where we need this common properties.
+
+```sass
+%btn-shared{
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+// using the above sharing
+.btn{
+    &-light {
+        @extend %btn-shared;
+        background-color: $light-color;
+        color: #333;
+    }
+    &-dark{
+        @extend %btn-shared;
+        background-color: $dark-color;
+        color: #fff;
+    }
+}
+```
+* Shared properties are starts with `%` and property name.
+* The shared properties are utilized using `@extend` and property name.
+* Sharing reduces efforts just like OOPs, and thus helps in structuring the CSS in much better way.
