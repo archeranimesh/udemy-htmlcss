@@ -10,7 +10,7 @@ body {
 
 header {
   background: #333;
-  color: #f4f4f4;
+  color: #fff;
   padding: 1rem; }
   header h1 {
     text-align: center; }
@@ -24,7 +24,7 @@ header {
     color: #fff; }
   .section-b {
     background: skyblue;
-    color: #fff; }
+    color: #000; }
 
 a {
   color: #333; }
@@ -41,8 +41,18 @@ a {
 
 .btn-light {
   background-color: #f4f4f4;
-  color: #333; }
+  color: #000; }
+  .btn-light:hover {
+    --webkit-transform: $property;
+    --ms-transform: $property;
+    transform: rotate(20deg);
+    background-color: #dbdbdb; }
 
 .btn-dark {
   background-color: #333;
   color: #fff; }
+  .btn-dark:hover {
+    --webkit-transform: $property;
+    --ms-transform: $property;
+    transform: rotate(-20deg);
+    background-color: #4d4d4d; }

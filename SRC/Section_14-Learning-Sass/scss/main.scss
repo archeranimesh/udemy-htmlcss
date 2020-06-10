@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'functions';
 
 * {
     margin: 0;
@@ -14,7 +15,8 @@ body{
 
 header{
     background: $dark-color;
-    color: $light-color;
+    // color: $light-color;
+    color: set-text-color($dark-color);
     padding: 1rem;
 
     // nesting
@@ -31,12 +33,14 @@ header{
     // & means take the name of parent which is section-a
     &-a{
         background: $primary-color;
-        color: #fff;
+        color: set-text-color($primary-color);
     }
     // & means take the name of parent which is section-a
     &-b{
         background: $secondary-color;
-        color: #fff;
+        // color: #fff;
+        color: set-text-color($secondary-color);
+
     }
 }
 
@@ -63,11 +67,23 @@ a{
     &-light {
         @extend %btn-shared;
         background-color: $light-color;
-        color: #333;
+        // color: #333;
+        color: set-text-color($light-color);
+        
+        &:hover{
+            @include transform(rotate(20deg));
+            background-color: darken($light-color, 10%);
+        }
+
     }
     &-dark{
         @extend %btn-shared;
         background-color: $dark-color;
-        color: #fff;
+        // color: #fff;
+        color: set-text-color($dark-color);
+        &:hover{
+            @include transform(rotate(-20deg));
+            background-color: lighten($dark-color, 10%);
+        }
     }
 }

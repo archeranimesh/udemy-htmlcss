@@ -149,3 +149,6 @@ header{
 * Shared properties are starts with `%` and property name.
 * The shared properties are utilized using `@extend` and property name.
 * Sharing reduces efforts just like OOPs, and thus helps in structuring the CSS in much better way.
+
+## Functions, Mixins  ##
+
