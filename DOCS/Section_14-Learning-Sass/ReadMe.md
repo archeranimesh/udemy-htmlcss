@@ -151,4 +151,27 @@ header{
 * Sharing reduces efforts just like OOPs, and thus helps in structuring the CSS in much better way.
 
 ## Functions, Mixins  ##
+* Like functions in programming language, we have function in SASS to reuse piece of code which behaves differently according to input.
 
+```sass
+// Set Text Color
+@function set-text-color($color){
+    @if (lightness($color) > 50) {
+        @return #000
+    } @else {
+        @return #fff
+    }
+}
+```
+* Multiple keywords are used in the above code.
+    - `@function` : defines the function
+    - `@if` : start of the conditions.
+    - `lightness` : is a in-built function.
+    - `@return` : returns the value back
+
+```sass
+@import 'functions';
+color: set-text-color($dark-color);
+```
+* the function is `@import`ed to the file which is used.
+* we called the function using `set-text-color` and passing the `$dark-color` as an argument.
