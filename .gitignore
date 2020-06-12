@@ -125,3 +125,4 @@ out
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+SRC/Section_15-Portfolio-Website-With-Sass/portfolio_website/dist/img/.DS_Store
