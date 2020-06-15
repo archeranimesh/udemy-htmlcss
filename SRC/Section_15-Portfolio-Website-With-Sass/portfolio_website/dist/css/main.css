@@ -28,28 +28,36 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: #ffbc00; }
 
-.bg-main {
-  background: #ffbc00;
-  color: set-text-color(#ffbc00); }
-
-.bg-dark {
-  background: #333;
-  color: set-text-color(#333); }
-
-.bg-light {
-  background: #f4f4f4;
-  color: set-text-color(#f4f4f4); }
-
-.bg-medium {
-  background: #ccc;
-  color: set-text-color(#ccc); }
-
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
 
 .text-center {
   text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
 
 * {
   margin: 0;
@@ -116,3 +124,12 @@ img {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
+
+#home-a .specials {
+  margin-top: 3rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-a .specials .fas {
+    color: #ffbc00;
+    padding-bottom: 0.4rem; }
