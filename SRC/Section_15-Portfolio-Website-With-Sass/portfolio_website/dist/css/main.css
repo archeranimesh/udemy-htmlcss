@@ -260,6 +260,13 @@ img {
     text-align: center;
     background: #ffbc00; }
 
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; }
+  #about-c .about-logos img {
+    width: 70%; }
+
 #main-footer {
   background: #333;
   color: #fff;
