@@ -361,7 +361,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email', 'subject phone', 'message message';
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -373,7 +373,7 @@ img {
   #contact-a .text-fields .phone-input {
     grid-area: phone; }
   #contact-a .text-fields .message-input {
-    grid-area: name;
+    grid-area: message;
     height: 100px; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }

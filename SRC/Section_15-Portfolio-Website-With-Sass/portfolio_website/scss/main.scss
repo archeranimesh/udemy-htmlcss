@@ -303,8 +303,8 @@ img {
     .text-fields{
       display: grid;
       grid-template-areas: 
-      'name email',
-      'subject phone',
+      'name email'
+      'subject phone'
       'message message';
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
@@ -323,7 +323,7 @@ img {
         grid-area: phone;
       }
       .message-input{
-        grid-area: name;
+        grid-area: message;
         height: 100px;
       }
 
